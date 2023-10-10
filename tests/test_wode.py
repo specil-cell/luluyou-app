@@ -214,19 +214,19 @@ class TestWode_01(minium.MiniTest):
             '/page/view/ml-title/view/view/view/view[1]/text')
         for element in elements:
             element.click()
-        # 查看待支付订单
+        # 查看待支付订单信息
         elements = self.page.get_elements(
             '/page/view/view/view[2]')
         for element in elements:
             element.click()
-        # 查看待支付订单
+        # 查看已支付订单信息
         elements = self.page.get_elements(
-            '/page/view/view/view[2]')
+            '/page/view/view/view[3]')
         for element in elements:
             element.click()
-        # 查看待支付订单
+        # 查看退款订单信息
         elements = self.page.get_elements(
-            '/page/view/view/view[2]')
+            '/page/view/view/view[4]')
         for element in elements:
             element.click()
         # 返回至我的页面
@@ -234,10 +234,70 @@ class TestWode_01(minium.MiniTest):
             '/page/view/ml-title/view/view/view/view[1]/text')
         for element in elements:
             element.click()
-        # 点击查看我的权益包
+        # # 点击查看我的权益包
+        # elements = self.page.get_elements(
+        #     '/page/view/view[1]/view[3]/view[4]')
+        # for element in elements:
+        #     element.click()
+        # # 查看未选取权益包信息
+        # elements = self.page.get_elements(
+        #     '/page/view/view[1]/view[2]')
+        # for element in elements:
+        #     element.click()
+        # # 查看未使用权益包信息
+        # elements = self.page.get_elements(
+        #     '/page/view/view[1]/view[3]')
+        # for element in elements:
+        #     element.click()
+        # # 查看已使用权益包信息
+        # elements = self.page.get_elements(
+        #     '/page/view/view[1]/view[4]')
+        # for element in elements:
+        #     element.click()
+        # # 返回至我的页面
+        # elements = self.page.get_elements(
+        #     '')
+        # for element in elements:
+        #     element.click()
+        # 查看我的激活码
         elements = self.page.get_elements(
-            '/page/view/view[1]/view[3]/view[4]')
+            '/page/view/view[2]/navigator[2]')
         for element in elements:
             element.click()
-        #
+        # 返回至我的页面
+        elements = self.page.get_elements(
+            '/page/view/ml-title/view/view/view/view[1]/text')
+        for element in elements:
+            element.click()
+        # 查看出行人
+        elements = self.page.get_elements(
+            '/page/view/view[2]/navigator[3]')
+        for element in elements:
+            element.click()
+        # 返回至我的页面
+        elements = self.page.get_elements(
+            '/page/view/ml-title/view/view/view/view[1]/text')
+        for element in elements:
+            element.click()
+        # 查看消息通知
+        elements = self.page.get_elements(
+            '/page/view/view[2]/navigator[7]')
+        for element in elements:
+            element.click()
+        # 查看通知详情
+        elements = self.page.get_elements(
+            '/page/view/scroll-view/view[1]')
+        for element in elements:
+            element.click()
+        # 返回页面至消息通知
+        elements = self.page.get_elements(
+            '/page/view/ml-title/view/view/view/view[1]/text')
+        for element in elements:
+            element.click()
+        # 返回至我的页面
+        elements = self.page.get_elements(
+            '/page/view/ml-title/view/view/view/view[1]/text')
+        for element in elements:
+            element.click()
+
 
