@@ -1,0 +1,40 @@
+INFO  2023-08-23 14:57:44,091 minitest.py _miniSetUp      340 =========Current case: test_handle_modal_02=========
+INFO  2023-08-23 14:57:44,092 minitest.py _miniSetUp      343 package info: D:.路路游小程序.tests.test_login, case info: TestShouye_1.test_handle_modal_02
+INFO  2023-08-23 14:57:44,093 basenative.py wrapper         24  call BaseNative.check_connection
+INFO  2023-08-23 14:57:44,093 basenative.py wrapper         28  call BaseNative.check_connection end
+INFO  2023-08-23 14:57:44,096 minitest.py capture         686 capture setup.png
+INFO  2023-08-23 14:57:44,097 basenative.py wrapper         24  call IdeNative.screen_shot
+DEBUG 2023-08-23 14:57:44,099 connection.py _safely_send    417 SEND > {"id":"073e4c3b-8d0e-4de8-8e3d-949a6c4bcdf2","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-08-23 14:57:44,226 connection.py _on_message     650 RECV < {"id":"073e4c3b-8d0e-4de8-8e3d-949a6c4bcdf2","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAawAAANDCAIAAAB+J7yFAAAAAXNSR0IArs4c6QAAIABJREFUeJzt3VlwW/dh+PtzcA52gAD3fd9FSpZlyZIdeZOXOKntJG2ddPLQJr3JS56S6cx96sPt9LmdaR/TJp0u6b9JOkma2E7cxIrsxIs2a7ckipS4iQQX7Dtwlvvwu8ZlJFuiSJCU/ft+HjIOReL8ABx88TsLDtR8Pq8AgKwcOz0AANhJRBCA1IggAKkRQQBSI4IApEYEAUiNCAKQGhEEIDUiCEBqRBCA1IggAKkRQQBSI4IApEYEAUiNCAKQml7F27Jtu/K/ALafbduGac1HooZh7vRYqszhUL0eV31tjdvldKhqFW+5OhG0/1BVbhPAvbJsO5cv/vDV3yfS2Z0eS5VpDtXv87Q01u4Z7hnubQ8FfdW65apF0DRNCg...
+INFO  2023-08-23 14:57:44,227 basenative.py wrapper         28  call IdeNative.screen_shot end
+INFO  2023-08-23 14:57:44,228 minitest.py _miniSetUp      393 =========case: test_handle_modal_02 start=========
+DEBUG 2023-08-23 14:57:44,229 connection.py _safely_send    417 SEND > {"id":"a55725d2-f7d8-4254-b5ba-b6ae909cf69b","method":"App.addBinding","params":{"name":"showModal_super_callback"}}
+DEBUG 2023-08-23 14:57:44,231 connection.py _on_message     652 RECV < {"id":"a55725d2-f7d8-4254-b5ba-b6ae909cf69b","result":{}}
+DEBUG 2023-08-23 14:57:44,234 connection.py _safely_send    417 SEND > {"id":"0f1164f5-bc13-4aff-8fd8-af831038fa1a","method":"App.callFunction","params":{"functionDeclaration":"function hookWxMethod(){var e,_=wx._MINI_WX_PROXY_||wx;_.showModal_MiniumOrigin?e=_.showModal_MiniumOrigin:(e=_.showModal,Object.defineProperty(_,\"showModal_MiniumOrigin\",{configurable:!0,get:()=>e})),Object.defineProperty(_,\"showModal\",{configurable:!0,get:()=>function(..._){var t,n=_[0],$=!1;if(\"showModal\".endsWith(\"Sync\")||n&&(n.success||n.fail||n.complete)||($=!0),\"undefined\"!=typeof showModal_super_before&&showModal_super_before(..._),\"undefined\"!=typeof showModal_super_callback)if($)t=e(..._).then((function(e){return showModal_super_callback(e),e})).catch((function(e){throw showModal_super_callback(e),e}));else{if(n){var o=n.complete;n.complete=function(e){showModal_super_callback(e),o&&o(e)}}t=e(..._)}else t=e(..._);return\"undefined\"!=typeof showModal_super_after&&showModal_super_after(t),t}})}","args":[]}}
+DEBUG 2023-08-23 14:57:44,237 connection.py _on_message     652 RECV < {"id":"0f1164f5-bc13-4aff-8fd8-af831038fa1a","result":{}}
+INFO  2023-08-23 14:57:44,239 page.py    _get_elements_by_css 557 try to get elements: text="安徽省-安庆市!"
+DEBUG 2023-08-23 14:57:44,240 connection.py _safely_send    417 SEND > {"id":"683a1821-a369-45a3-a713-40c37bd6343f","method":"Page.getElements","params":{"selector":"text=\"\u5b89\u5fbd\u7701-\u5b89\u5e86\u5e02!\"","pageId":35}}
+DEBUG 2023-08-23 14:57:44,243 connection.py _on_message     652 RECV < {"id":"683a1821-a369-45a3-a713-40c37bd6343f","result":{"elements":[{"elementId":"33c4847b-fb02-4154-9558-6fd6843b2ca6","tagName":"text"}]}}
+INFO  2023-08-23 14:57:44,245 page.py    _get_elements_by_css 564 find elements success: [<minium.miniprogram.base_driver.element.BaseElement object at 0x000002986910FEE0>]
+DEBUG 2023-08-23 14:57:44,246 connection.py _safely_send    417 SEND > {"id":"22e4d145-0fed-4130-9afa-d878ae2dfd47","method":"Element.tap","params":{"elementId":"33c4847b-fb02-4154-9558-6fd6843b2ca6","pageId":35}}
+DEBUG 2023-08-23 14:57:44,251 connection.py _on_message     652 RECV < {"id":"22e4d145-0fed-4130-9afa-d878ae2dfd47","result":{}}
+INFO  2023-08-23 14:57:46,255 basenative.py wrapper         24  call IdeNative.handle_modal
+INFO  2023-08-23 14:57:46,256 basenative.py wrapper         24  call IdeNative.send
+DEBUG 2023-08-23 14:57:46,257 connection.py _safely_send    417 SEND > {"id":"0992fd00-5b57-439c-89a2-44a03886c8bb","method":"Tool.native","params":{"method":"confirmModal","data":null}}
+DEBUG 2023-08-23 14:57:46,258 connection.py _on_message     652 RECV < {"id":"0992fd00-5b57-439c-89a2-44a03886c8bb","result":{"error":{"message":"confirmModal failed"}}}
+WARNI 2023-08-23 14:57:46,260 idenative.py send            65  handle confirmModal error: confirmModal failed
+INFO  2023-08-23 14:57:46,261 basenative.py wrapper         28  call IdeNative.send end
+INFO  2023-08-23 14:57:46,261 basenative.py wrapper         27  IdeNative.handle_modal return {'id': '0992fd00-5b57-439c-89a2-44a03886c8bb', 'result': {'error': {'message': 'confirmModal failed'}}}
+INFO  2023-08-23 14:57:46,261 basenative.py wrapper         28  call IdeNative.handle_modal end
+DEBUG 2023-08-23 14:57:49,272 connection.py _safely_send    417 SEND > {"id":"fa81b7ee-9fa8-4709-8eb7-e514c161a512","method":"Page.getElementsByXpath","params":{"selector":"/view/biz-index-head/view/navigator","pageId":35}}
+DEBUG 2023-08-23 14:57:49,277 connection.py _on_message     652 RECV < {"id":"fa81b7ee-9fa8-4709-8eb7-e514c161a512","result":{"elements":[]}}
+DEBUG 2023-08-23 14:57:53,476 connection.py _on_message     652 RECV < {"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"webviewId":10,"path":"pages/index/index","query":{},"openType":"navigateBack","__ts__":1692773873468},1692773873469]}}
+INFO  2023-08-23 14:57:53,487 app.py     _on_route_changed 845 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 10, 'path': 'pages/index/index', 'query': {}, 'openType': 'navigateBack', '__ts__': 1692773873468}, 1692773873469]}
+DEBUG 2023-08-23 14:57:53,516 connection.py _on_message     652 RECV < {"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"webviewId":10,"path":"pages/index/index","query":{},"openType":"navigateBack","__ts__":1692773873503},1692773873504]}}
+INFO  2023-08-23 14:57:53,521 app.py     _on_route_changed 845 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 10, 'path': 'pages/index/index', 'query': {}, 'openType': 'navigateBack', '__ts__': 1692773873503}, 1692773873504]}
+DEBUG 2023-08-23 14:57:55,293 connection.py _safely_send    417 SEND > {"id":"d78a07d9-4da2-485c-9311-67f22f9e7b1c","method":"Page.getElementsByXpath","params":{"selector":"/view/view[1]/picker/view","pageId":10}}
+DEBUG 2023-08-23 14:57:55,303 connection.py _on_message     652 RECV < {"id":"d78a07d9-4da2-485c-9311-67f22f9e7b1c","result":{"elements":[]}}
+DEBUG 2023-08-23 14:57:55,305 minitest.py _miniTearDown   589 =========Current case Down: test_handle_modal_02=========
+INFO  2023-08-23 14:57:55,307 minitest.py capture         686 capture teardown.png
+INFO  2023-08-23 14:57:55,310 basenative.py wrapper         24  call IdeNative.screen_shot
+DEBUG 2023-08-23 14:57:55,313 connection.py _safely_send    417 SEND > {"id":"f4652391-9f07-4da3-9c5e-71845efd28f9","method":"App.captureScreenshot","params":{}}

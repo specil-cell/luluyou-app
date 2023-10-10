@@ -1,0 +1,56 @@
+INFO  2023-08-23 15:01:00,496 minitest.py _miniSetUp      340 =========Current case: test_handle_modal_02=========
+INFO  2023-08-23 15:01:00,496 minitest.py _miniSetUp      343 package info: D:.路路游小程序.tests.test_login, case info: TestShouye_1.test_handle_modal_02
+INFO  2023-08-23 15:01:00,497 basenative.py wrapper         24  call BaseNative.check_connection
+INFO  2023-08-23 15:01:00,498 basenative.py wrapper         28  call BaseNative.check_connection end
+INFO  2023-08-23 15:01:00,499 minitest.py capture         686 capture setup.png
+INFO  2023-08-23 15:01:00,500 basenative.py wrapper         24  call IdeNative.screen_shot
+DEBUG 2023-08-23 15:01:00,501 connection.py _safely_send    417 SEND > {"id":"cbd6811b-4602-4bde-83f7-c27143feae95","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-08-23 15:01:00,687 connection.py _on_message     650 RECV < {"id":"cbd6811b-4602-4bde-83f7-c27143feae95","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAawAAANDCAIAAAB+J7yFAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3VlsHedh//3ZZ86+L9x5SIqbqJWyZS2WFadxEjuJEwco2rhL3AZN8b7ogqItUAQFAhRoLtrLtMA/CVK0yZtmqWs7dh3bsaRItixbokRxFUVxEdez7/tsz3sxySn/kmxLFC3Rmt/nypwzq4F888zMc45pQggFAGBKhBDmfp8DAMD9hAgCgKkhggBgaoggAJgaIggApoYIAoCpIYIAYGqIIACYGiIIAKaGCAKAqSGCAGBqiCAAmBoiCACmhggCgKkhggBgatydblBR63VdERneyokfxQkBANxLdzwS1Imu6ZpO6R/F2QAA3GM0flkaAEwLvywNAGaHCAKAqSGCAGBqiCAAmBoiCACmhggCgKkhggBgaoggAJ...
+INFO  2023-08-23 15:01:00,689 basenative.py wrapper         28  call IdeNative.screen_shot end
+INFO  2023-08-23 15:01:00,690 minitest.py _miniSetUp      393 =========case: test_handle_modal_02 start=========
+DEBUG 2023-08-23 15:01:00,692 connection.py _safely_send    417 SEND > {"id":"b8384eff-7508-49d0-8331-8c5f8a4b206c","method":"App.addBinding","params":{"name":"showModal_super_callback"}}
+DEBUG 2023-08-23 15:01:00,694 connection.py _on_message     652 RECV < {"id":"b8384eff-7508-49d0-8331-8c5f8a4b206c","result":{}}
+DEBUG 2023-08-23 15:01:00,695 connection.py _safely_send    417 SEND > {"id":"fb819cdd-9534-4c7e-9fc3-6adc75b113a7","method":"App.callFunction","params":{"functionDeclaration":"function hookWxMethod(){var e,_=wx._MINI_WX_PROXY_||wx;_.showModal_MiniumOrigin?e=_.showModal_MiniumOrigin:(e=_.showModal,Object.defineProperty(_,\"showModal_MiniumOrigin\",{configurable:!0,get:()=>e})),Object.defineProperty(_,\"showModal\",{configurable:!0,get:()=>function(..._){var t,n=_[0],$=!1;if(\"showModal\".endsWith(\"Sync\")||n&&(n.success||n.fail||n.complete)||($=!0),\"undefined\"!=typeof showModal_super_before&&showModal_super_before(..._),\"undefined\"!=typeof showModal_super_callback)if($)t=e(..._).then((function(e){return showModal_super_callback(e),e})).catch((function(e){throw showModal_super_callback(e),e}));else{if(n){var o=n.complete;n.complete=function(e){showModal_super_callback(e),o&&o(e)}}t=e(..._)}else t=e(..._);return\"undefined\"!=typeof showModal_super_after&&showModal_super_after(t),t}})}","args":[]}}
+DEBUG 2023-08-23 15:01:00,698 connection.py _on_message     652 RECV < {"id":"fb819cdd-9534-4c7e-9fc3-6adc75b113a7","result":{}}
+INFO  2023-08-23 15:01:00,700 page.py    _get_elements_by_css 557 try to get elements: text="安徽省-安庆市!"
+DEBUG 2023-08-23 15:01:00,700 connection.py _safely_send    417 SEND > {"id":"dac26efe-41e3-4319-8f29-7fdb85cae3a3","method":"Page.getElements","params":{"selector":"text=\"\u5b89\u5fbd\u7701-\u5b89\u5e86\u5e02!\"","pageId":41}}
+DEBUG 2023-08-23 15:01:00,721 connection.py _on_message     650 RECV < {"id":"dac26efe-41e3-4319-8f29-7fdb85cae3a3","result":{"elements":[{"elementId":"c96a94d9-9525-4425-85bd-3ec0e44d0137","tagName":"text"},{"elementId":"d61f17fb-b605-45b7-9b5f-f3f14c6cb34b","tagName":"text"},{"elementId":"1e9777e3-f8dc-4d49-ac6d-008da103ce4c","tagName":"text"},{"elementId":"ab33e8f4-ab63-4d20-b72a-3c4893dc22d2","tagName":"text"},{"elementId":"466dc908-c981-4598-97f0-605091f9f53c","tagName":"text"},{"elementId":"360deb93-a302-4439-9404-bd17f092852c","tagName":"text"},{"elementId":"d864f8a1...
+INFO  2023-08-23 15:01:00,726 page.py    _get_elements_by_css 564 find elements success: [<minium.miniprogram.base_driver.element.BaseElement object at 0x000001C2F54F5090>]
+DEBUG 2023-08-23 15:01:00,728 connection.py _safely_send    417 SEND > {"id":"d1ca23b7-c8d4-4440-9b98-eac14824c96f","method":"Element.tap","params":{"elementId":"c96a94d9-9525-4425-85bd-3ec0e44d0137","pageId":41}}
+DEBUG 2023-08-23 15:01:00,735 connection.py _on_message     652 RECV < {"id":"d1ca23b7-c8d4-4440-9b98-eac14824c96f","result":{}}
+INFO  2023-08-23 15:01:02,748 basenative.py wrapper         24  call IdeNative.handle_modal
+INFO  2023-08-23 15:01:02,750 basenative.py wrapper         24  call IdeNative.send
+DEBUG 2023-08-23 15:01:02,751 connection.py _safely_send    417 SEND > {"id":"b3dd6fa5-9d53-401f-b351-c91c80569215","method":"Tool.native","params":{"method":"confirmModal","data":null}}
+DEBUG 2023-08-23 15:01:02,762 connection.py _on_message     652 RECV < {"id":"b3dd6fa5-9d53-401f-b351-c91c80569215","result":{}}
+INFO  2023-08-23 15:01:02,764 basenative.py wrapper         28  call IdeNative.send end
+INFO  2023-08-23 15:01:02,766 basenative.py wrapper         27  IdeNative.handle_modal return {'id': 'b3dd6fa5-9d53-401f-b351-c91c80569215', 'result': {}}
+INFO  2023-08-23 15:01:02,767 basenative.py wrapper         28  call IdeNative.handle_modal end
+DEBUG 2023-08-23 15:01:02,791 connection.py _on_message     652 RECV < {"method":"App.bindingCalled","params":{"name":"showModal_super_callback","args":[{"errMsg":"showModal:ok","cancel":false,"confirm":true,"content":null}]}}
+DEBUG 2023-08-23 15:01:02,794 app.py     super_callback  971 wx.showModal callback hook result: [{'errMsg': 'showModal:ok', 'cancel': False, 'confirm': True, 'content': None}]
+DEBUG 2023-08-23 15:01:02,796 app.py     super_callback  971 wx.showModal callback hook result: [{'errMsg': 'showModal:ok', 'cancel': False, 'confirm': True, 'content': None}]
+DEBUG 2023-08-23 15:01:02,998 connection.py _on_message     652 RECV < {"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"webviewId":10,"path":"pages/index/index","query":{},"openType":"navigateBack","__ts__":1692774062991},1692774062993]}}
+INFO  2023-08-23 15:01:03,004 app.py     _on_route_changed 845 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 10, 'path': 'pages/index/index', 'query': {}, 'openType': 'navigateBack', '__ts__': 1692774062991}, 1692774062993]}
+DEBUG 2023-08-23 15:01:03,059 connection.py _on_message     652 RECV < {"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"webviewId":10,"path":"pages/index/index","query":{},"openType":"navigateBack","__ts__":1692774063044},1692774063049]}}
+INFO  2023-08-23 15:01:03,063 app.py     _on_route_changed 845 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 10, 'path': 'pages/index/index', 'query': {}, 'openType': 'navigateBack', '__ts__': 1692774063044}, 1692774063049]}
+DEBUG 2023-08-23 15:01:05,779 connection.py _safely_send    417 SEND > {"id":"76c7245c-349f-48b3-a0ed-b9ea67a2d524","method":"Page.getElementsByXpath","params":{"selector":"/view/biz-index-head/view/navigator","pageId":10}}
+DEBUG 2023-08-23 15:01:05,797 connection.py _on_message     652 RECV < {"id":"76c7245c-349f-48b3-a0ed-b9ea67a2d524","result":{"elements":[{"elementId":"8a6c37cf-b95e-41ca-83ad-5e3e119e85d0","tagName":"navigator"}]}}
+DEBUG 2023-08-23 15:01:05,800 connection.py _safely_send    417 SEND > {"id":"c6542e76-d947-4193-bbad-5f9c96240a33","method":"Element.getStyles","params":{"names":["pointer-events"],"elementId":"8a6c37cf-b95e-41ca-83ad-5e3e119e85d0","pageId":10}}
+DEBUG 2023-08-23 15:01:05,807 connection.py _on_message     652 RECV < {"id":"c6542e76-d947-4193-bbad-5f9c96240a33","result":{"styles":["auto"]}}
+DEBUG 2023-08-23 15:01:05,810 connection.py _safely_send    417 SEND > {"id":"4ce4a13f-e18a-4ba7-a6dd-af18919e40f4","method":"Element.tap","params":{"elementId":"8a6c37cf-b95e-41ca-83ad-5e3e119e85d0","pageId":10}}
+DEBUG 2023-08-23 15:01:05,899 connection.py _on_message     652 RECV < {"id":"4ce4a13f-e18a-4ba7-a6dd-af18919e40f4","result":{}}
+DEBUG 2023-08-23 15:01:06,301 connection.py _on_message     652 RECV < {"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"webviewId":42,"path":"pages/search/search","query":{"type":"2"},"openType":"navigateTo","__ts__":1692774066281},1692774066283]}}
+INFO  2023-08-23 15:01:06,303 app.py     _on_route_changed 845 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 42, 'path': 'pages/search/search', 'query': {'type': '2'}, 'openType': 'navigateTo', '__ts__': 1692774066281}, 1692774066283]}
+DEBUG 2023-08-23 15:01:12,931 connection.py _safely_send    417 SEND > {"id":"9c94c0ac-0736-47ca-a06f-08f44a851721","method":"Page.getElementsByXpath","params":{"selector":"/view/view[1]/picker/view","pageId":42}}
+DEBUG 2023-08-23 15:01:12,940 connection.py _on_message     652 RECV < {"id":"9c94c0ac-0736-47ca-a06f-08f44a851721","result":{"elements":[{"elementId":"a8376c33-98bc-4abe-92bb-1203daf2d036","tagName":"view"}]}}
+DEBUG 2023-08-23 15:01:12,941 connection.py _safely_send    417 SEND > {"id":"54e15a1c-fb86-4a84-a66b-611e297ba2b1","method":"Element.getStyles","params":{"names":["pointer-events"],"elementId":"a8376c33-98bc-4abe-92bb-1203daf2d036","pageId":42}}
+DEBUG 2023-08-23 15:01:12,947 connection.py _on_message     652 RECV < {"id":"54e15a1c-fb86-4a84-a66b-611e297ba2b1","result":{"styles":["auto"]}}
+DEBUG 2023-08-23 15:01:12,949 connection.py _safely_send    417 SEND > {"id":"ee40e6cb-9152-450c-a222-920bbc6b9884","method":"Element.tap","params":{"elementId":"a8376c33-98bc-4abe-92bb-1203daf2d036","pageId":42}}
+DEBUG 2023-08-23 15:01:12,970 connection.py _on_message     652 RECV < {"id":"ee40e6cb-9152-450c-a222-920bbc6b9884","result":{}}
+DEBUG 2023-08-23 15:01:13,975 minitest.py _miniTearDown   589 =========Current case Down: test_handle_modal_02=========
+INFO  2023-08-23 15:01:13,978 minitest.py capture         686 capture teardown.png
+INFO  2023-08-23 15:01:13,980 basenative.py wrapper         24  call IdeNative.screen_shot
+DEBUG 2023-08-23 15:01:13,980 connection.py _safely_send    417 SEND > {"id":"cbe598ab-1271-4575-bd39-e159c8670708","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-08-23 15:01:14,118 connection.py _on_message     650 RECV < {"id":"cbe598ab-1271-4575-bd39-e159c8670708","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAawAAANDCAIAAAB+J7yFAAAAAXNSR0IArs4c6QAAIABJREFUeJzt3VlwW/dh+PtzcA52gAD3fd9FSpZlyZIdeZOXOKntJG2ddPLQJr3JS56S6cx96sPt9LmdaR/TJp0u6b9JOkma2E7cxIrsxIs2a7ckipS4iQQX7Dtwlvvwu8ZlJFuiSJCU/ft+HjIOReL8ABx88TsLDtR8Pq8AgKwcOz0AANhJRBCA1IggAKkRQQBSI4IApEYEAUiNCAKQGhEEIDUiCEBqRBCA1IggAKkRQQBSI4IApEYEAUiNCAKQml7F27Jtu/K/ALafbduGac1HooZh7vRYqszhUL0eV31tjdvldKhqFW+5OhG0/1BVbhPAvbJsO5cv/vDV3yfS2Z0eS5VpDtXv87Q01u4Z7hnubQ8FfdW65apF0DRNCg...
+INFO  2023-08-23 15:01:14,121 basenative.py wrapper         28  call IdeNative.screen_shot end
+INFO  2023-08-23 15:01:14,122 basenative.py wrapper         24  call BaseNative.get_start_up
+INFO  2023-08-23 15:01:14,123 basenative.py wrapper         28  call BaseNative.get_start_up end

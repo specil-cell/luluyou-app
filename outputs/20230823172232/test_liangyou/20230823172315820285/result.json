@@ -1,0 +1,97 @@
+{
+    "case_name": "test_liangyou",
+    "run_time": "20230823 17:23:15",
+    "test_type": "TestShouYe_1",
+    "case_doc": null,
+    "success": true,
+    "failures": "",
+    "errors": "",
+    "start_timestamp": 1692782595.9412067,
+    "is_failure": false,
+    "is_error": false,
+    "module": "D:.\u8def\u8def\u6e38\u5c0f\u7a0b\u5e8f.tests.test_login",
+    "package": "tests",
+    "failed_line_num": -1,
+    "device": {
+        "system_info": {
+            "model": "iPhone 12/13 Pro Max",
+            "pixelRatio": 3,
+            "windowWidth": 428,
+            "windowHeight": 926,
+            "system": "iOS 10.0.1",
+            "language": "zh_CN",
+            "version": "8.0.5",
+            "deviceOrientation": "portrait",
+            "screenWidth": 428,
+            "screenHeight": 926,
+            "SDKVersion": "2.30.4",
+            "brand": "devtools",
+            "fontSizeSetting": 16,
+            "benchmarkLevel": 1,
+            "batteryLevel": 100,
+            "statusBarHeight": 47,
+            "bluetoothEnabled": true,
+            "locationEnabled": true,
+            "wifiEnabled": true,
+            "cameraAuthorized": true,
+            "locationAuthorized": true,
+            "microphoneAuthorized": true,
+            "notificationAuthorized": true,
+            "safeArea": {
+                "top": 47,
+                "left": 0,
+                "right": 428,
+                "bottom": 892,
+                "width": 428,
+                "height": 845
+            },
+            "platform": "devtools",
+            "enableDebug": false,
+            "devicePixelRatio": 3,
+            "host": {
+                "env": "WeChat"
+            },
+            "mode": "default"
+        }
+    },
+    "log_filename": "run.log",
+    "error_type": "",
+    "error_value": "",
+    "error_stages": [],
+    "screen_info": [
+        {
+            "name": "setup",
+            "url": "/pages/search/search",
+            "path": "images\\setup.png",
+            "ts": 1692782595,
+            "datetime": "2023-08-23 17:23:15"
+        },
+        {
+            "name": "teardown",
+            "url": "/pages/search/search",
+            "path": "images\\teardown.png",
+            "ts": 1692782599,
+            "datetime": "2023-08-23 17:23:19"
+        }
+    ],
+    "step_info": [],
+    "check_list": [],
+    "assert_list": [],
+    "perf_data": "{\"startup\": 0, \"avg_cpu\": 0, \"max_cpu\": 0, \"cpu_data_list\": [], \"avg_mem\": 0, \"max_mem\": 0, \"mem_data_list\": [], \"avg_fps\": 0, \"min_fps_rt\": 0, \"fps_data_list\": [], \"fps_time_series_list\": [], \"cpu_time_series_list\": [], \"mem_time_series_list\": []}",
+    "weapp_log_path": "weapp.log",
+    "request_log_path": "request.log",
+    "stop_timestamp": 1692782599.072253,
+    "appId": "",
+    "appName": "",
+    "source": {
+        "code": [
+            "    def test_liangyou(self):\n",
+            "        mini = MiniProgram()\n",
+            "        mini.start()\n",
+            "        time.sleep(3)\n",
+            "        mini.current_page()\n"
+        ],
+        "start": 14
+    },
+    "filename": "result.json"
+}

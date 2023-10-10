@@ -1,0 +1,36 @@
+INFO  2023-08-23 15:52:16,880 minitest.py _miniSetUp      340 =========Current case: test_handle_modal_02=========
+INFO  2023-08-23 15:52:16,881 minitest.py _miniSetUp      343 package info: D:.路路游小程序.tests.test_login, case info: TestShouYe_1.test_handle_modal_02
+INFO  2023-08-23 15:52:16,882 basenative.py wrapper         24  call BaseNative.check_connection
+INFO  2023-08-23 15:52:16,883 basenative.py wrapper         28  call BaseNative.check_connection end
+INFO  2023-08-23 15:52:16,884 minitest.py capture         686 capture setup.png
+INFO  2023-08-23 15:52:16,885 basenative.py wrapper         24  call IdeNative.screen_shot
+DEBUG 2023-08-23 15:52:16,886 connection.py _safely_send    417 SEND > {"id":"ba4c466b-1862-419d-8daf-1daa2096e72e","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-08-23 15:52:17,015 connection.py _on_message     650 RECV < {"id":"ba4c466b-1862-419d-8daf-1daa2096e72e","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAawAAANDCAIAAAB+J7yFAAAAAXNSR0IArs4c6QAAIABJREFUeJzt3elvXOd96PFzZt85C5fhIi6iSJEURVmyJTmWl8SyEztwgRsgBYw6bm8b5D8o7rsC9z9oX3VBWxQoboo6QHrbFDeoETt2vMSW4sjWQomUxH2b4c7Zl7PcF8/NXIbaxREp+ff9vBC4DM+cocgvn3OeZ87oxWJRAwCpHPu9AwCwn4ggANGIIADRiCAA0YggANGIIADRiCAA0YggANGIIADRiCAA0YggANGIIADRiCAA0YggANGIIADRXHXclm3btX8B7D3btg3Tmk+tGYa53/tSZw6H7vd5ErGI1+N26Hodt1yfCNq/ry7bBPCgLNsuFMvv/J9PNrP5/d6XOnM69GDAl2yKjRzuPtzT3hAO1GvLdYugaZoUEN...
+INFO  2023-08-23 15:52:17,016 basenative.py wrapper         28  call IdeNative.screen_shot end
+INFO  2023-08-23 15:52:17,017 minitest.py _miniSetUp      393 =========case: test_handle_modal_02 start=========
+DEBUG 2023-08-23 15:52:17,018 connection.py _safely_send    417 SEND > {"id":"92652891-2c35-43b5-b062-e48da02bafeb","method":"App.addBinding","params":{"name":"showModal_super_callback"}}
+DEBUG 2023-08-23 15:52:17,021 connection.py _on_message     652 RECV < {"id":"92652891-2c35-43b5-b062-e48da02bafeb","result":{}}
+DEBUG 2023-08-23 15:52:17,023 connection.py _safely_send    417 SEND > {"id":"2117be26-43f4-430b-bb84-9f0f1118d52c","method":"App.callFunction","params":{"functionDeclaration":"function hookWxMethod(){var e,_=wx._MINI_WX_PROXY_||wx;_.showModal_MiniumOrigin?e=_.showModal_MiniumOrigin:(e=_.showModal,Object.defineProperty(_,\"showModal_MiniumOrigin\",{configurable:!0,get:()=>e})),Object.defineProperty(_,\"showModal\",{configurable:!0,get:()=>function(..._){var t,n=_[0],$=!1;if(\"showModal\".endsWith(\"Sync\")||n&&(n.success||n.fail||n.complete)||($=!0),\"undefined\"!=typeof showModal_super_before&&showModal_super_before(..._),\"undefined\"!=typeof showModal_super_callback)if($)t=e(..._).then((function(e){return showModal_super_callback(e),e})).catch((function(e){throw showModal_super_callback(e),e}));else{if(n){var o=n.complete;n.complete=function(e){showModal_super_callback(e),o&&o(e)}}t=e(..._)}else t=e(..._);return\"undefined\"!=typeof showModal_super_after&&showModal_super_after(t),t}})}","args":[]}}
+DEBUG 2023-08-23 15:52:17,027 connection.py _on_message     652 RECV < {"id":"2117be26-43f4-430b-bb84-9f0f1118d52c","result":{}}
+INFO  2023-08-23 15:52:17,028 page.py    _get_elements_by_css 557 try to get elements: text="安徽省-安庆市!"
+DEBUG 2023-08-23 15:52:17,029 connection.py _safely_send    417 SEND > {"id":"ec8ec413-832c-4201-bd22-1916a25a6448","method":"Page.getElements","params":{"selector":"text=\"\u5b89\u5fbd\u7701-\u5b89\u5e86\u5e02!\"","pageId":83}}
+DEBUG 2023-08-23 15:52:17,032 connection.py _on_message     652 RECV < {"id":"ec8ec413-832c-4201-bd22-1916a25a6448","error":{"message":"page destroyed"}}
+ERROR 2023-08-23 15:52:17,033 connection.py _on_message     660 [ec8ec413-832c-4201-bd22-1916a25a6448]: page destroyed
+INFO  2023-08-23 15:52:17,033 page.py    _get_elements_by_css 557 try to get elements: text="安徽省-安庆市!"
+DEBUG 2023-08-23 15:52:17,034 connection.py _safely_send    417 SEND > {"id":"dd739410-a055-4526-89b0-2fe92e340e01","method":"Page.getElements","params":{"selector":"text=\"\u5b89\u5fbd\u7701-\u5b89\u5e86\u5e02!\"","pageId":83}}
+DEBUG 2023-08-23 15:52:17,037 connection.py _on_message     652 RECV < {"id":"dd739410-a055-4526-89b0-2fe92e340e01","error":{"message":"page destroyed"}}
+ERROR 2023-08-23 15:52:17,039 connection.py _on_message     660 [dd739410-a055-4526-89b0-2fe92e340e01]: page destroyed
+DEBUG 2023-08-23 15:52:17,040 minitest.py _miniTearDown   589 =========Current case Down: test_handle_modal_02=========
+INFO  2023-08-23 15:52:17,041 minitest.py capture         686 capture teardown.png
+INFO  2023-08-23 15:52:17,042 basenative.py wrapper         24  call IdeNative.screen_shot
+DEBUG 2023-08-23 15:52:17,043 connection.py _safely_send    417 SEND > {"id":"3ce3efae-d23f-4593-a3c6-620865b0f9be","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-08-23 15:52:17,110 connection.py _on_message     652 RECV < {"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"webviewId":10,"path":"pages/index/index","query":{},"openType":"navigateBack","__ts__":1692777137103},1692777137105]}}
+INFO  2023-08-23 15:52:17,115 app.py     _on_route_changed 845 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 10, 'path': 'pages/index/index', 'query': {}, 'openType': 'navigateBack', '__ts__': 1692777137103}, 1692777137105]}
+DEBUG 2023-08-23 15:52:17,164 connection.py _on_message     652 RECV < {"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"webviewId":10,"path":"pages/index/index","query":{},"openType":"navigateBack","__ts__":1692777137152},1692777137155]}}
+INFO  2023-08-23 15:52:17,167 app.py     _on_route_changed 845 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 10, 'path': 'pages/index/index', 'query': {}, 'openType': 'navigateBack', '__ts__': 1692777137152}, 1692777137155]}
+DEBUG 2023-08-23 15:52:18,965 connection.py _on_message     650 RECV < {"id":"3ce3efae-d23f-4593-a3c6-620865b0f9be","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAawAAAOeCAIAAADQh7N0AAAAAXNSR0IArs4c6QAAIABJREFUeJx8vdtyJFuuJOYOrEiy9u6ZI2ke5qv0VfpMvUlmGpPGRkene1eRGbEA1wOAyKw+I2WzabVJZkbEigWHw3EJ/s//y/96mDlggElUEkklSTPWC4DmFWZJCyki9t6ZiXlJEuBr0YxuMAOQmTtiR1z72nunlKApqTqcLGWSA066wUhzGWFMMBXJhGSQSUghU0JmZsROZSillHKOLwB1znXykkiaGWlmZjCb/3AzNzPQzYz84+Pj87HMaY61fDmX8TAsw2F8uFNYy3y5LYJ57evnr++fP7/OK3Zq7zyv6/z+3ufTIGVkBBQGGeGgw5bZY9lj8eF8OBbCKKeM6Z5r6bH8Y9nhOiwP6mPhMDyOtVYejsP5cC6DWy7TQX...
+WARNI 2023-08-23 15:52:18,967 utils.py   wrapper         88  第 1 次重新运行_framework_capture
+INFO  2023-08-23 15:52:18,968 utils.py   wrapper         91  原因: KeyboardInterrupt()
+INFO  2023-08-23 15:52:18,969 minitest.py capture         686 capture teardown.png
+INFO  2023-08-23 15:52:18,969 basenative.py wrapper         24  call IdeNative.screen_shot
+DEBUG 2023-08-23 15:52:18,970 connection.py _safely_send    417 SEND > {"id":"a8f6f776-7746-4860-9a10-e00f3e9a15ae","method":"App.captureScreenshot","params":{}}

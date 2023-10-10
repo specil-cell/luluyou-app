@@ -1,0 +1,18 @@
+INFO  2023-08-23 17:28:42,539 minitest.py _miniSetUp      340 =========Current case: test_liangyou=========
+INFO  2023-08-23 17:28:42,540 minitest.py _miniSetUp      343 package info: D:.路路游小程序.tests.test_login, case info: TestShouYe_1.test_liangyou
+INFO  2023-08-23 17:28:42,541 basenative.py wrapper         24  call BaseNative.check_connection
+INFO  2023-08-23 17:28:42,542 basenative.py wrapper         28  call BaseNative.check_connection end
+INFO  2023-08-23 17:28:42,542 minitest.py capture         686 capture setup.png
+INFO  2023-08-23 17:28:42,543 basenative.py wrapper         24  call IdeNative.screen_shot
+DEBUG 2023-08-23 17:28:42,544 connection.py _safely_send    417 SEND > {"id":"200d1fa4-aa80-4392-8681-ca61d502c2f0","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-08-23 17:28:43,106 connection.py _on_message     650 RECV < {"id":"200d1fa4-aa80-4392-8681-ca61d502c2f0","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAawAAAOeCAIAAADQh7N0AAAAAXNSR0IArs4c6QAAIABJREFUeJzsvVlsHEma52mHnxEe98n7ECmJklJnKlOlrLxUVVlVU9119oXpmuk5gAYGaGDQ2y+NmX3ZXWBmHmYfegoD7GCwjW5Md28Xuirr6Krsyso7U3npvkWJN8WbcUf47W62Dy6xKF5iBBlkhGg/EAIV9DA3Nzf7+/eZffY5/HNKQRMCd7sC1bL5CtNHP5ssFm668KpKrh+brzCDUW9SlHLWbleiBppxCFVV52pFcPPFgsYQQcYOUKd23vX+s73YAHDGbleiBppxFFVV52p1rSp2t/UaRIifeup6l5+a2wcBsADgnN2uR800oxRukmrNxnoUWz+emiHU+Gz7HX/67p0DAEd2uxI14N3ap+9+eMDqL23zvnOD8LTeu8...
+INFO  2023-08-23 17:28:43,108 basenative.py wrapper         28  call IdeNative.screen_shot end
+INFO  2023-08-23 17:28:43,109 minitest.py _miniSetUp      393 =========case: test_liangyou start=========
+DEBUG 2023-08-23 17:28:46,113 minitest.py _miniTearDown   589 =========Current case Down: test_liangyou=========
+INFO  2023-08-23 17:28:46,115 minitest.py capture         686 capture teardown.png
+INFO  2023-08-23 17:28:46,118 basenative.py wrapper         24  call IdeNative.screen_shot
+DEBUG 2023-08-23 17:28:46,119 connection.py _safely_send    417 SEND > {"id":"6012b36a-169a-431a-b100-5b2a6b1048b4","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-08-23 17:28:47,501 connection.py _on_message     650 RECV < {"id":"6012b36a-169a-431a-b100-5b2a6b1048b4","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAawAAAOeCAIAAADQh7N0AAAAAXNSR0IArs4c6QAAIABJREFUeJzMvdGSJEmOJKaqcI+s6pndpQgfeL/K36PwB/gLpPBh5Y7kzUx3VUa4AcoHwDyyZ29PlhTytmNSarIjMyM83M0UCoUCzv/Rxh/m8Sf79T/9H//L//yXU5Qhm7ZQQAkmSVISANv9b9kZRwEr51FVJPunBijpOEgyRMn2ylxrrcxrXZlZIGzCMmirrCoBQR5ECCQVDhosV6HMPi6zCmXbLldmVq2E7aoqwED1cfbx3P/aliSJlOaLkkIKzX+GdIT+4fv3CEqIQ8fBQzzEUziER0SQQR5H6JAOZ+XPz+dvPz5/fj7Xqiy8rnw9P6/n07noqkrnIkqEgIAO6gh9HHoEH4FTPlCkg47IiDoPPQ49Dp7yyXwEHoFH6D...
+INFO  2023-08-23 17:28:47,505 basenative.py wrapper         28  call IdeNative.screen_shot end
+INFO  2023-08-23 17:28:47,506 basenative.py wrapper         24  call BaseNative.get_start_up
+INFO  2023-08-23 17:28:47,507 basenative.py wrapper         28  call BaseNative.get_start_up end

@@ -1,0 +1,122 @@
+INFO  2023-08-23 14:24:06,799 minitest.py _miniSetUp      340 =========Current case: test_handle_modal_02=========
+INFO  2023-08-23 14:24:06,800 minitest.py _miniSetUp      343 package info: D:.路路游小程序.tests.test_login, case info: TestShouye_1.test_handle_modal_02
+INFO  2023-08-23 14:24:06,801 basenative.py wrapper         24  call BaseNative.check_connection
+INFO  2023-08-23 14:24:06,801 basenative.py wrapper         28  call BaseNative.check_connection end
+INFO  2023-08-23 14:24:06,802 minitest.py capture         686 capture setup.png
+INFO  2023-08-23 14:24:06,803 basenative.py wrapper         24  call IdeNative.screen_shot
+DEBUG 2023-08-23 14:24:06,803 connection.py _safely_send    417 SEND > {"id":"654add4c-a65c-4dde-8453-d15027648fe3","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-08-23 14:24:06,951 connection.py _on_message     650 RECV < {"id":"654add4c-a65c-4dde-8453-d15027648fe3","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAawAAANDCAIAAAB+J7yFAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3VlsHedh//3ZZ86+L9x5SIqbqJWyZS2WFadxEjuJEwco2rhL3AZN8b7ogqItUAQFAhRoLtrLtMA/CVK0yZtmqWs7dh3bsaRItixbokRxFUVxEdez7/tsz3sxySn/kmxLFC3Rmt/nypwzq4F888zMc45pQggFAGBKhBDmfp8DAMD9hAgCgKkhggBgaoggAJgaIggApoYIAoCpIYIAYGqIIACYGiIIAKaGCAKAqSGCAGBqiCAAmBoiCACmhggCgKkhggBgatydblBR63VdERneyokfxQkBANxLdzwS1Imu6ZpO6R/F2QAA3GM0flkaAEwLvywNAGaHCAKAqSGCAGBqiCAAmBoiCACmhggCgKkhggBgaoggAJ...
+INFO  2023-08-23 14:24:06,953 basenative.py wrapper         28  call IdeNative.screen_shot end
+INFO  2023-08-23 14:24:06,954 minitest.py _miniSetUp      393 =========case: test_handle_modal_02 start=========
+DEBUG 2023-08-23 14:24:06,955 connection.py _safely_send    417 SEND > {"id":"46679b93-7a88-4205-8e2c-b2ddda74f911","method":"App.addBinding","params":{"name":"showModal_super_callback"}}
+DEBUG 2023-08-23 14:24:06,957 connection.py _on_message     652 RECV < {"id":"46679b93-7a88-4205-8e2c-b2ddda74f911","result":{}}
+DEBUG 2023-08-23 14:24:06,958 connection.py _safely_send    417 SEND > {"id":"c4646975-6cf6-456c-ab25-ec379eb9abf2","method":"App.callFunction","params":{"functionDeclaration":"function hookWxMethod(){var e,_=wx._MINI_WX_PROXY_||wx;_.showModal_MiniumOrigin?e=_.showModal_MiniumOrigin:(e=_.showModal,Object.defineProperty(_,\"showModal_MiniumOrigin\",{configurable:!0,get:()=>e})),Object.defineProperty(_,\"showModal\",{configurable:!0,get:()=>function(..._){var t,n=_[0],$=!1;if(\"showModal\".endsWith(\"Sync\")||n&&(n.success||n.fail||n.complete)||($=!0),\"undefined\"!=typeof showModal_super_before&&showModal_super_before(..._),\"undefined\"!=typeof showModal_super_callback)if($)t=e(..._).then((function(e){return showModal_super_callback(e),e})).catch((function(e){throw showModal_super_callback(e),e}));else{if(n){var o=n.complete;n.complete=function(e){showModal_super_callback(e),o&&o(e)}}t=e(..._)}else t=e(..._);return\"undefined\"!=typeof showModal_super_after&&showModal_super_after(t),t}})}","args":[]}}
+DEBUG 2023-08-23 14:24:06,961 connection.py _on_message     652 RECV < {"id":"c4646975-6cf6-456c-ab25-ec379eb9abf2","result":{}}
+INFO  2023-08-23 14:24:06,962 page.py    _get_elements_by_css 557 try to get elements: text="安徽省-安庆市!"
+DEBUG 2023-08-23 14:24:06,963 connection.py _safely_send    417 SEND > {"id":"f83ab448-503b-4c45-a91b-003c578700cc","method":"Page.getElements","params":{"selector":"text=\"\u5b89\u5fbd\u7701-\u5b89\u5e86\u5e02!\"","pageId":15}}
+DEBUG 2023-08-23 14:24:06,986 connection.py _on_message     650 RECV < {"id":"f83ab448-503b-4c45-a91b-003c578700cc","result":{"elements":[{"elementId":"7fcce0ba-00bb-40ae-b879-cf5f9f8d34bf","tagName":"text"},{"elementId":"32aaeb16-2494-4bac-9d8c-70f9ee730655","tagName":"text"},{"elementId":"e437292a-6cca-4174-803e-f1ff1ebdf33e","tagName":"text"},{"elementId":"8cfa0635-7b9a-41af-9bf6-28e5ed527100","tagName":"text"},{"elementId":"ffb032fe-85ee-4a85-bfa3-774b00203670","tagName":"text"},{"elementId":"28b85548-d616-4cea-a0cd-b6a8e2878705","tagName":"text"},{"elementId":"48ac1b5c...
+INFO  2023-08-23 14:24:06,989 page.py    _get_elements_by_css 564 find elements success: [<minium.miniprogram.base_driver.element.BaseElement object at 0x0000021E74399630>]
+DEBUG 2023-08-23 14:24:06,990 connection.py _safely_send    417 SEND > {"id":"4c1ea073-298a-41d5-89a6-27fdc8672910","method":"Element.tap","params":{"elementId":"7fcce0ba-00bb-40ae-b879-cf5f9f8d34bf","pageId":15}}
+DEBUG 2023-08-23 14:24:06,996 connection.py _on_message     652 RECV < {"id":"4c1ea073-298a-41d5-89a6-27fdc8672910","result":{}}
+INFO  2023-08-23 14:24:09,003 basenative.py wrapper         24  call IdeNative.handle_modal
+INFO  2023-08-23 14:24:09,004 basenative.py wrapper         24  call IdeNative.send
+DEBUG 2023-08-23 14:24:09,005 connection.py _safely_send    417 SEND > {"id":"fbee19ac-a05a-4c48-8d42-a6cad2e0dec3","method":"Tool.native","params":{"method":"confirmModal","data":null}}
+DEBUG 2023-08-23 14:24:09,015 connection.py _on_message     652 RECV < {"id":"fbee19ac-a05a-4c48-8d42-a6cad2e0dec3","result":{}}
+INFO  2023-08-23 14:24:09,017 basenative.py wrapper         28  call IdeNative.send end
+INFO  2023-08-23 14:24:09,017 basenative.py wrapper         27  IdeNative.handle_modal return {'id': 'fbee19ac-a05a-4c48-8d42-a6cad2e0dec3', 'result': {}}
+INFO  2023-08-23 14:24:09,019 basenative.py wrapper         28  call IdeNative.handle_modal end
+INFO  2023-08-23 14:24:09,021 page.py    _get_elements_by_css 557 try to get elements: 
+DEBUG 2023-08-23 14:24:09,022 connection.py _safely_send    417 SEND > {"id":"7e582317-3bdc-4065-9411-cbaf86b2d730","method":"Page.getElements","params":{"selector":"","pageId":15}}
+DEBUG 2023-08-23 14:24:09,039 connection.py _on_message     652 RECV < {"method":"App.bindingCalled","params":{"name":"showModal_super_callback","args":[{"errMsg":"showModal:ok","cancel":false,"confirm":true,"content":null}]}}
+DEBUG 2023-08-23 14:24:09,043 app.py     super_callback  971 wx.showModal callback hook result: [{'errMsg': 'showModal:ok', 'cancel': False, 'confirm': True, 'content': None}]
+DEBUG 2023-08-23 14:24:09,045 app.py     super_callback  971 wx.showModal callback hook result: [{'errMsg': 'showModal:ok', 'cancel': False, 'confirm': True, 'content': None}]
+DEBUG 2023-08-23 14:24:09,062 connection.py _on_message     652 RECV < {"id":"7e582317-3bdc-4065-9411-cbaf86b2d730","error":{"message":"page destroyed"}}
+ERROR 2023-08-23 14:24:09,064 connection.py _on_message     660 [7e582317-3bdc-4065-9411-cbaf86b2d730]: page destroyed
+INFO  2023-08-23 14:24:09,066 page.py    _get_elements_by_css 557 try to get elements: 
+DEBUG 2023-08-23 14:24:09,072 connection.py _safely_send    417 SEND > {"id":"f02582ff-827b-4028-ad84-e722a2cbe6c8","method":"Page.getElements","params":{"selector":"","pageId":15}}
+DEBUG 2023-08-23 14:24:09,077 connection.py _on_message     652 RECV < {"id":"f02582ff-827b-4028-ad84-e722a2cbe6c8","error":{"message":"page destroyed"}}
+ERROR 2023-08-23 14:24:09,078 connection.py _on_message     660 [f02582ff-827b-4028-ad84-e722a2cbe6c8]: page destroyed
+DEBUG 2023-08-23 14:24:09,082 minitest.py _miniTearDown   589 =========Current case Down: test_handle_modal_02=========
+INFO  2023-08-23 14:24:09,088 minitest.py capture         686 capture teardown.png
+INFO  2023-08-23 14:24:09,089 basenative.py wrapper         24  call IdeNative.screen_shot
+DEBUG 2023-08-23 14:24:09,090 connection.py _safely_send    417 SEND > {"id":"881d6312-ea4c-4b76-a685-7f8e415b7fd4","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-08-23 14:24:09,247 connection.py _on_message     652 RECV < {"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"webviewId":3,"path":"pages/index/index","query":{},"openType":"navigateBack","__ts__":1692771849239},1692771849240]}}
+INFO  2023-08-23 14:24:09,254 app.py     _on_route_changed 845 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 3, 'path': 'pages/index/index', 'query': {}, 'openType': 'navigateBack', '__ts__': 1692771849239}, 1692771849240]}
+DEBUG 2023-08-23 14:24:09,303 connection.py _on_message     652 RECV < {"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"webviewId":3,"path":"pages/index/index","query":{},"openType":"navigateBack","__ts__":1692771849287},1692771849289]}}
+INFO  2023-08-23 14:24:09,306 app.py     _on_route_changed 845 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 3, 'path': 'pages/index/index', 'query': {}, 'openType': 'navigateBack', '__ts__': 1692771849287}, 1692771849289]}
+DEBUG 2023-08-23 14:24:09,748 connection.py _on_message     650 RECV < {"id":"881d6312-ea4c-4b76-a685-7f8e415b7fd4","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAawAAAOeCAIAAADQh7N0AAAAAXNSR0IArs4c6QAAIABJREFUeJzsvXlsXEl+5xnXu/K+M3kfIilRUuksdVWrui51ddntttvtqml7MO6BZzADD4w1MPD+tYD3n11jZoDxzAIzwACzmP3DWKy9bthdfWx3dVdVV3VVtUp1qHRflHhTvJnMO9/9IvaPJ7EpXspMMslMMj4gBCr5Ml68eBHf9/tF/OL34P/CGGhC4F5XoFoqrzB7/FNhsbDiwqsquX5UXmEOp94kGSPmXleiBppxCFVV52pFsPJiQWOIIGcXqFM773n/2VksAIi+15WogWYcRVXVuVpdq4q9bb0GEeJ9T13v8r65fRAAEwBi73U9aqYZpbBCqjUb61Fs/dg3Q6jx2fE7vv/unQ0AoXtdiRpwb+3+ux8usPpLq9x3bh...
+INFO  2023-08-23 14:24:09,768 basenative.py wrapper         28  call IdeNative.screen_shot end
+INFO  2023-08-23 14:24:09,769 basenative.py wrapper         24  call BaseNative.get_start_up
+INFO  2023-08-23 14:24:09,769 basenative.py wrapper         28  call BaseNative.get_start_up end
+ERROR 2023-08-23 14:24:09,783 assertbase.py _get_stack_info 341 <bound method TestShouye_1.test_handle_modal_02 of <tests.test_login.TestShouye_1 testMethod=test_handle_modal_02>>
+Traceback (most recent call last):
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\app.py", line 214, in wrapper
+    return func(*args, **kwargs)
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\minium_log.py", line 172, in wrapper
+    result = func(*args, **kwargs)
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\page.py", line 398, in get_elements
+    return filter_elements()
+  File "D:\software\python-3.10.10\lib\site-packages\minium\utils\utils.py", line 56, in wrapper
+    r = func(*args, **kwargs)
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\page.py", line 384, in filter_elements
+    elements = self._get_elements_by_css(selector, max_timeout, index=-1)
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\page.py", line 560, in _get_elements_by_css
+    els = search_elements(_selector_list)
+  File "D:\software\python-3.10.10\lib\site-packages\minium\utils\utils.py", line 56, in wrapper
+    r = func(*args, **kwargs)
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\page.py", line 553, in search_elements
+    return self.__search_child(
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\page.py", line 517, in __search_child
+    els = self.__get_elements(_selector)
+  File "D:\software\python-3.10.10\lib\site-packages\minium\utils\utils.py", line 82, in wrapper
+    ret = func(*args, **kwargs)
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\page.py", line 495, in __get_elements
+    ret = self._send("Page.getElements", {"selector": selector})
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\page.py", line 488, in _send
+    self.connection.send(method, params)
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 447, in send
+    return self._receive_response(cmd)
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 473, in _receive_response
+    raise response
+minium.framework.exception.PageDestroyed: page destroyed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\software\python-3.10.10\lib\site-packages\minium\framework\libs\unittest\case.py", line 265, in testPartExecutor
+    yield
+  File "D:\software\python-3.10.10\lib\site-packages\minium\framework\libs\unittest\case.py", line 350, in run
+    self._callTestMethod(testMethod)
+  File "D:\software\python-3.10.10\lib\unittest\case.py", line 549, in _callTestMethod
+    method()
+  File "D:\路路游小程序\tests\test_login.py", line 73, in test_handle_modal_02
+    elements = self.page.get_elements(
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\app.py", line 217, in wrapper
+    return attr(*args, **kwargs)
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\minium_log.py", line 172, in wrapper
+    result = func(*args, **kwargs)
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\page.py", line 398, in get_elements
+    return filter_elements()
+  File "D:\software\python-3.10.10\lib\site-packages\minium\utils\utils.py", line 56, in wrapper
+    r = func(*args, **kwargs)
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\page.py", line 384, in filter_elements
+    elements = self._get_elements_by_css(selector, max_timeout, index=-1)
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\page.py", line 560, in _get_elements_by_css
+    els = search_elements(_selector_list)
+  File "D:\software\python-3.10.10\lib\site-packages\minium\utils\utils.py", line 56, in wrapper
+    r = func(*args, **kwargs)
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\page.py", line 553, in search_elements
+    return self.__search_child(
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\page.py", line 517, in __search_child
+    els = self.__get_elements(_selector)
+  File "D:\software\python-3.10.10\lib\site-packages\minium\utils\utils.py", line 82, in wrapper
+    ret = func(*args, **kwargs)
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\page.py", line 495, in __get_elements
+    ret = self._send("Page.getElements", {"selector": selector})
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\page.py", line 488, in _send
+    self.connection.send(method, params)
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 447, in send
+    return self._receive_response(cmd)
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 473, in _receive_response
+    raise response
+minium.framework.exception.PageDestroyed: page destroyed

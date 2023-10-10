@@ -1,0 +1,115 @@
+{
+    "case_name": "test_handle_modal_02",
+    "run_time": "20230823 14:24:06",
+    "test_type": "TestShouye_1",
+    "case_doc": null,
+    "success": false,
+    "failures": "",
+    "errors": "Traceback (most recent call last):\n  File \"D:\\software\\python-3.10.10\\lib\\site-packages\\minium\\miniprogram\\base_driver\\app.py\", line 214, in wrapper\n    return func(*args, **kwargs)\n  File \"D:\\software\\python-3.10.10\\lib\\site-packages\\minium\\miniprogram\\base_driver\\minium_log.py\", line 172, in wrapper\n    result = func(*args, **kwargs)\n  File \"D:\\software\\python-3.10.10\\lib\\site-packages\\minium\\miniprogram\\base_driver\\page.py\", line 398, in get_elements\n    return filter_elements()\n  File \"D:\\software\\python-3.10.10\\lib\\site-packages\\minium\\utils\\utils.py\", line 56, in wrapper\n    r = func(*args, **kwargs)\n  File \"D:\\software\\python-3.10.10\\lib\\site-packages\\minium\\miniprogram\\base_driver\\page.py\", line 384, in filter_elements\n    elements = self._get_elements_by_css(selector, max_timeout, index=-1)\n  File \"D:\\software\\python-3.10.10\\lib\\site-packages\\minium\\miniprogram\\base_driver\\page.py\", line 560, in _get_elements_by_css\n    els = search_elements(_selector_list)\n  File \"D:\\software\\python-3.10.10\\lib\\site-packages\\minium\\utils\\utils.py\", line 56, in wrapper\n    r = func(*args, **kwargs)\n  File \"D:\\software\\python-3.10.10\\lib\\site-packages\\minium\\miniprogram\\base_driver\\page.py\", line 553, in search_elements\n    return self.__search_child(\n  File \"D:\\software\\python-3.10.10\\lib\\site-packages\\minium\\miniprogram\\base_driver\\page.py\", line 517, in __search_child\n    els = self.__get_elements(_selector)\n  File \"D:\\software\\python-3.10.10\\lib\\site-packages\\minium\\utils\\utils.py\", line 82, in wrapper\n    ret = func(*args, **kwargs)\n  File \"D:\\software\\python-3.10.10\\lib\\site-packages\\minium\\miniprogram\\base_driver\\page.py\", line 495, in __get_elements\n    ret = self._send(\"Page.getElements\", {\"selector\": selector})\n  File \"D:\\software\\python-3.10.10\\lib\\site-packages\\minium\\miniprogram\\base_driver\\page.py\", line 488, in _send\n    self.connection.send(method, params)\n  File \"D:\\software\\python-3.10.10\\lib\\site-packages\\minium\\miniprogram\\base_driver\\connection.py\", line 447, in send\n    return self._receive_response(cmd)\n  File \"D:\\software\\python-3.10.10\\lib\\site-packages\\minium\\miniprogram\\base_driver\\connection.py\", line 473, in _receive_response\n    raise response\nminium.framework.exception.PageDestroyed: page destroyed\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"D:\\software\\python-3.10.10\\lib\\site-packages\\minium\\framework\\libs\\unittest\\case.py\", line 265, in testPartExecutor\n    yield\n  File \"D:\\software\\python-3.10.10\\lib\\site-packages\\minium\\framework\\libs\\unittest\\case.py\", line 350, in run\n    self._callTestMethod(testMethod)\n  File \"D:\\software\\python-3.10.10\\lib\\unittest\\case.py\", line 549, in _callTestMethod\n    method()\n  File \"D:\\\u8def\u8def\u6e38\u5c0f\u7a0b\u5e8f\\tests\\test_login.py\", line 73, in test_handle_modal_02\n    elements = self.page.get_elements(\n  File \"D:\\software\\python-3.10.10\\lib\\site-packages\\minium\\miniprogram\\base_driver\\app.py\", line 217, in wrapper\n    return attr(*args, **kwargs)\n  File \"D:\\software\\python-3.10.10\\lib\\site-packages\\minium\\miniprogram\\base_driver\\minium_log.py\", line 172, in wrapper\n    result = func(*args, **kwargs)\n  File \"D:\\software\\python-3.10.10\\lib\\site-packages\\minium\\miniprogram\\base_driver\\page.py\", line 398, in get_elements\n    return filter_elements()\n  File \"D:\\software\\python-3.10.10\\lib\\site-packages\\minium\\utils\\utils.py\", line 56, in wrapper\n    r = func(*args, **kwargs)\n  File \"D:\\software\\python-3.10.10\\lib\\site-packages\\minium\\miniprogram\\base_driver\\page.py\", line 384, in filter_elements\n    elements = self._get_elements_by_css(selector, max_timeout, index=-1)\n  File \"D:\\software\\python-3.10.10\\lib\\site-packages\\minium\\miniprogram\\base_driver\\page.py\", line 560, in _get_elements_by_css\n    els = search_elements(_selector_list)\n  File \"D:\\software\\python-3.10.10\\lib\\site-packages\\minium\\utils\\utils.py\", line 56, in wrapper\n    r = func(*args, **kwargs)\n  File \"D:\\software\\python-3.10.10\\lib\\site-packages\\minium\\miniprogram\\base_driver\\page.py\", line 553, in search_elements\n    return self.__search_child(\n  File \"D:\\software\\python-3.10.10\\lib\\site-packages\\minium\\miniprogram\\base_driver\\page.py\", line 517, in __search_child\n    els = self.__get_elements(_selector)\n  File \"D:\\software\\python-3.10.10\\lib\\site-packages\\minium\\utils\\utils.py\", line 82, in wrapper\n    ret = func(*args, **kwargs)\n  File \"D:\\software\\python-3.10.10\\lib\\site-packages\\minium\\miniprogram\\base_driver\\page.py\", line 495, in __get_elements\n    ret = self._send(\"Page.getElements\", {\"selector\": selector})\n  File \"D:\\software\\python-3.10.10\\lib\\site-packages\\minium\\miniprogram\\base_driver\\page.py\", line 488, in _send\n    self.connection.send(method, params)\n  File \"D:\\software\\python-3.10.10\\lib\\site-packages\\minium\\miniprogram\\base_driver\\connection.py\", line 447, in send\n    return self._receive_response(cmd)\n  File \"D:\\software\\python-3.10.10\\lib\\site-packages\\minium\\miniprogram\\base_driver\\connection.py\", line 473, in _receive_response\n    raise response\nminium.framework.exception.PageDestroyed: page destroyed\n",
+    "start_timestamp": 1692771846.954169,
+    "is_failure": false,
+    "is_error": true,
+    "module": "D:.\u8def\u8def\u6e38\u5c0f\u7a0b\u5e8f.tests.test_login",
+    "package": "tests",
+    "failed_line_num": 73,
+    "device": {
+        "system_info": {
+            "model": "iPhone 12/13 Pro Max",
+            "pixelRatio": 3,
+            "windowWidth": 428,
+            "windowHeight": 926,
+            "system": "iOS 10.0.1",
+            "language": "zh_CN",
+            "version": "8.0.5",
+            "deviceOrientation": "portrait",
+            "screenWidth": 428,
+            "screenHeight": 926,
+            "SDKVersion": "2.30.4",
+            "brand": "devtools",
+            "fontSizeSetting": 16,
+            "benchmarkLevel": 1,
+            "batteryLevel": 100,
+            "statusBarHeight": 47,
+            "bluetoothEnabled": true,
+            "locationEnabled": true,
+            "wifiEnabled": true,
+            "cameraAuthorized": true,
+            "locationAuthorized": true,
+            "microphoneAuthorized": true,
+            "notificationAuthorized": true,
+            "safeArea": {
+                "top": 47,
+                "left": 0,
+                "right": 428,
+                "bottom": 892,
+                "width": 428,
+                "height": 845
+            },
+            "platform": "devtools",
+            "enableDebug": false,
+            "devicePixelRatio": 3,
+            "host": {
+                "env": "WeChat"
+            },
+            "mode": "default"
+        }
+    },
+    "log_filename": "run.log",
+    "error_type": "PageDestroyed",
+    "error_value": "page destroyed",
+    "error_stages": [
+        "testMethod"
+    ],
+    "screen_info": [
+        {
+            "name": "setup",
+            "url": "/pages/common/selected_city",
+            "path": "images\\setup.png",
+            "ts": 1692771846,
+            "datetime": "2023-08-23 14:24:06"
+        },
+        {
+            "name": "teardown",
+            "url": "/pages/index/index",
+            "path": "images\\teardown.png",
+            "ts": 1692771849,
+            "datetime": "2023-08-23 14:24:09"
+        }
+    ],
+    "step_info": [],
+    "check_list": [],
+    "assert_list": [],
+    "perf_data": "{\"startup\": 0, \"avg_cpu\": 0, \"max_cpu\": 0, \"cpu_data_list\": [], \"avg_mem\": 0, \"max_mem\": 0, \"mem_data_list\": [], \"avg_fps\": 0, \"min_fps_rt\": 0, \"fps_data_list\": [], \"fps_time_series_list\": [], \"cpu_time_series_list\": [], \"mem_time_series_list\": []}",
+    "weapp_log_path": "weapp.log",
+    "request_log_path": "request.log",
+    "stop_timestamp": 1692771849.770498,
+    "appId": "",
+    "appName": "",
+    "source": {
+        "code": [
+            "    def test_handle_modal_02(self):\n",
+            "        callback = Callback()  # \u76d1\u542c\u56de\u8c03, \u963b\u585e\u5f53\u524d\u4e3b\u7ebf\u7a0b\n",
+            "\n",
+            "        # \u76d1\u542cshowModal\u56de\u8c03, \u786e\u8ba4\u7531\u5f39\u7a97\u5f39\u51fa\n",
+            "        self.app.hook_wx_method(\"showModal\", callback=callback.callback)\n",
+            "        self.page.get_element('text=\"\u5b89\u5fbd\u7701-\u5b89\u5e86\u5e02!\"').tap()  # \u89e6\u53d1\u5f39\u7a97\n",
+            "        time.sleep(2)\n",
+            "        self.native.handle_modal(\"\u786e\u5b9a\")  # \u70b9\u51fb\u5f39\u7a97\u7684\"\u786e\u5b9a\"\u6309\u94ae\n",
+            "        # \u786e\u8ba4\u9009\u62e9\n",
+            "        elements = self.page.get_elements(\n",
+            "            '')\n",
+            "        for element in elements:\n",
+            "            element.click()\n",
+            "        time.sleep(3)\n",
+            "        # \u67e5\u770b\u516c\u544a(\u6eda\u52a8\u6761\u8fdb\u5165)\n",
+            "        elements = self.page.get_elements(\n",
+            "            '/page/view/biz-index-nav/view/view[1]/navigator/uni-notice-bar/view/view')\n",
+            "        for element in elements:\n",
+            "            element.click()\n",
+            "        time.sleep(3)\n",
+            "        # \u8fd4\u56de\u9996\u9875\n"
+        ],
+        "start": 64
+    },
+    "filename": "result.json"
+}

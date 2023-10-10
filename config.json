@@ -1,0 +1,19 @@
+{
+  "project_path": "D:\\software\\mini-data\\c-luluyou\\unpackage\\dist\\dev\\mp-weixin",
+  "dev_tool_path": "D:\\software\\微信web开发者工具\\cli.bat",
+  "debug_mode": "debug",
+  "test_port": 9421,
+  "platform": "ide",
+  "app": "wx",
+  "assert_capture": true,
+  "request_timeout": 60,
+  "remote_connect_timeout": 300,
+  "auto_relaunch": false,
+  "enable_app_log": true,
+  "mock_native_modal": {
+    "showModal": {
+      "title": "test modal",
+      "content": "modal content"
+    }
+  }
+}

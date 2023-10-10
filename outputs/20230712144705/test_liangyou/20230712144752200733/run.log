@@ -1,0 +1,33 @@
+INFO  2023-07-12 14:47:52,201 minitest.py _miniSetUp      340 =========Current case: test_liangyou=========
+INFO  2023-07-12 14:47:52,202 minitest.py _miniSetUp      343 package info: C:.Users.mengl.PycharmProjects.路路游小程序.tests.test_login, case info: TestShouye_1.test_liangyou
+INFO  2023-07-12 14:47:52,202 basenative.py wrapper         24  call BaseNative.check_connection
+INFO  2023-07-12 14:47:52,203 basenative.py wrapper         28  call BaseNative.check_connection end
+INFO  2023-07-12 14:47:52,203 minitest.py capture         686 capture setup.png
+INFO  2023-07-12 14:47:52,204 basenative.py wrapper         24  call IdeNative.screen_shot
+DEBUG 2023-07-12 14:47:52,204 connection.py _safely_send    417 SEND > {"id":"247f98ea-f878-4f39-8077-fef2534f024c","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-07-12 14:47:52,667 connection.py _on_message     650 RECV < {"id":"247f98ea-f878-4f39-8077-fef2534f024c","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAALGCAIAAADk4lDsAAAAAXNSR0IArs4c6QAAIABJREFUeJxsvVuWIzkOLGgGuvLelc3GZrmzgspwwubDAJCKbHWfqiiFwkUSL8OT/H/+v//3fV+mSObeAJ7nUUpKkAAiYu9N0j88z5OZe28A63lIShKQEEQqpAQQQSBT9YdQSJAEINMfCJKAAEUsMlQvzseeZ5H+KwFKSdoQIh6gPrnWkkiSxNYPiACJUEJJICCCibUTCUCSv1pSZi5ExPI3+rf+J4kI1jbXIpmZkkhmEmBt3Cv21wNeTz/h/kAEV30D/Jyvv/K3Z+b1DjObHPW9CcA/rLXmu/y+JAhg3I/de9c5K0juvWf7/kzmjtUrj8/7vkAAkBLcPoRZXu0LQT5+c62PpMz6ACEpSQjeJBgESRBv7dfr9xoy0z/PIf...
+INFO  2023-07-12 14:47:52,670 basenative.py wrapper         28  call IdeNative.screen_shot end
+INFO  2023-07-12 14:47:52,671 minitest.py _miniSetUp      393 =========case: test_liangyou start=========
+DEBUG 2023-07-12 14:47:55,685 connection.py _safely_send    417 SEND > {"id":"e46b06ef-ba49-4a8c-ab23-574f587a4ebe","method":"Page.getElementsByXpath","params":{"selector":"/view/biz-index-head/view/view","pageId":1}}
+DEBUG 2023-07-12 14:47:55,700 connection.py _on_message     652 RECV < {"id":"e46b06ef-ba49-4a8c-ab23-574f587a4ebe","result":{"elements":[{"elementId":"98409789-d8dd-4225-a486-86e1aa704820","tagName":"view"}]}}
+DEBUG 2023-07-12 14:47:55,701 connection.py _safely_send    417 SEND > {"id":"a3e901fc-570e-45ae-8c5e-85e9416a8527","method":"Element.getStyles","params":{"names":["pointer-events"],"elementId":"98409789-d8dd-4225-a486-86e1aa704820","pageId":1}}
+DEBUG 2023-07-12 14:47:55,706 connection.py _on_message     652 RECV < {"id":"a3e901fc-570e-45ae-8c5e-85e9416a8527","result":{"styles":["auto"]}}
+DEBUG 2023-07-12 14:47:55,706 connection.py _safely_send    417 SEND > {"id":"3862b9d3-8d15-42b7-b0eb-7ac90fb90e5e","method":"Element.tap","params":{"elementId":"98409789-d8dd-4225-a486-86e1aa704820","pageId":1}}
+DEBUG 2023-07-12 14:47:55,781 connection.py _on_message     652 RECV < {"id":"3862b9d3-8d15-42b7-b0eb-7ac90fb90e5e","result":{}}
+DEBUG 2023-07-12 14:47:56,123 connection.py _on_message     650 RECV < {"method":"App.exceptionThrown","params":{"message":"_this.setLocationData is not a function","stack":"TypeError: _this.setLocationData is not a function\n    at Object.success (http://127.0.0.1:27205/appservice/pages/common/selected_city.js?t=wechat&s=1689144455388&v=925b9024d37a513a2101e2436e7bb57c:182:31)\n    at Object.handleData (http://127.0.0.1:27205/appservice/common/vendor.js?t=wechat&s=1689144455388&v=87e672b565a10b924e0a5cfd9aea117c:12607:15)\n    at options.success (http://127.0.0.1:27205/app...
+DEBUG 2023-07-12 14:47:56,337 connection.py _on_message     652 RECV < {"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"webviewId":2,"path":"pages/common/selected_city","query":{},"openType":"navigateTo","__ts__":1689144476307},1689144476310]}}
+INFO  2023-07-12 14:47:56,339 app.py     _on_route_changed 845 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 2, 'path': 'pages/common/selected_city', 'query': {}, 'openType': 'navigateTo', '__ts__': 1689144476307}, 1689144476310]}
+DEBUG 2023-07-12 14:47:58,802 connection.py _safely_send    417 SEND > {"id":"c8fc05f8-31b1-493a-8908-92d86191019e","method":"Page.getElementsByXpath","params":{"selector":"/lee-select-city/view/view/view/scroll-view[1]/view/view[2]","pageId":2}}
+DEBUG 2023-07-12 14:47:58,808 connection.py _on_message     652 RECV < {"id":"c8fc05f8-31b1-493a-8908-92d86191019e","result":{"elements":[{"elementId":"83732e88-345b-4dab-90ed-2d2ce9738c5a","tagName":"view"}]}}
+DEBUG 2023-07-12 14:47:58,810 connection.py _safely_send    417 SEND > {"id":"7bee415c-a03d-455a-8d27-e54287a7aa99","method":"Element.getStyles","params":{"names":["pointer-events"],"elementId":"83732e88-345b-4dab-90ed-2d2ce9738c5a","pageId":2}}
+DEBUG 2023-07-12 14:47:58,815 connection.py _on_message     652 RECV < {"id":"7bee415c-a03d-455a-8d27-e54287a7aa99","result":{"styles":["auto"]}}
+DEBUG 2023-07-12 14:47:58,816 connection.py _safely_send    417 SEND > {"id":"4b50e5b1-a22a-4004-9e16-73ab4ab333ff","method":"Element.tap","params":{"elementId":"83732e88-345b-4dab-90ed-2d2ce9738c5a","pageId":2}}
+DEBUG 2023-07-12 14:47:58,824 connection.py _on_message     652 RECV < {"id":"4b50e5b1-a22a-4004-9e16-73ab4ab333ff","result":{}}
+DEBUG 2023-07-12 14:48:01,848 minitest.py _miniTearDown   589 =========Current case Down: test_liangyou=========
+INFO  2023-07-12 14:48:01,850 minitest.py capture         686 capture teardown.png
+INFO  2023-07-12 14:48:01,851 basenative.py wrapper         24  call IdeNative.screen_shot
+DEBUG 2023-07-12 14:48:01,851 connection.py _safely_send    417 SEND > {"id":"ac1f58ce-00d7-4533-b7c7-5422d27b9385","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-07-12 14:48:01,957 connection.py _on_message     650 RECV < {"id":"ac1f58ce-00d7-4533-b7c7-5422d27b9385","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZAAAAJ2CAIAAAD+KEOZAAAAAXNSR0IArs4c6QAAIABJREFUeJzt3XFMXNeB+PuTFofBxmRc4trjnYaC0yyxJ91qTEnX+LHNs0unFh6vcFhH3fUjihV+kfY3BD35aaPnEQQ0ek0ktIvn/t6+aKJEoejXrWWHla8ROyVOkxLDNomZbeKJQ1N7psTzM2Udm2sg5pKky/vjbO7ezAAGG9tzyPfzRzXcOffOHUt8e+65184dMzMzAgBU8JXbfQIAsFAEC4AyCBYAZRAsAMogWACUQbAAKINgAVAGwQKgDIIFQBkEC4AyCBYAZRAsAMogWACUQbAAKINgAVAGwQKgDIIFQBk5t/sEANxEPT09qVRqngFut3vnzp237Hxu0B03+E8kDwwMGIYxzxceGBgQQmzdutXa0tPTU1JSUlpaOu...
+INFO  2023-07-12 14:48:01,958 basenative.py wrapper         28  call IdeNative.screen_shot end
+INFO  2023-07-12 14:48:01,959 basenative.py wrapper         24  call BaseNative.get_start_up
+INFO  2023-07-12 14:48:01,960 basenative.py wrapper         28  call BaseNative.get_start_up end

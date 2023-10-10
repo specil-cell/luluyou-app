@@ -1,0 +1,16 @@
+INFO  2023-08-23 15:49:32,667 minitest.py init_miniprogram 144 start init miniprogram
+INFO  2023-08-23 15:49:32,668 basenative.py wrapper         24  call IdeNative.start_wechat
+INFO  2023-08-23 15:49:32,669 basenative.py wrapper         28  call IdeNative.start_wechat end
+INFO  2023-08-23 15:49:32,673 minium_object.py _do_shell       83  de shell: where cli.bat
+INFO  2023-08-23 15:49:32,958 minium_object.py _do_shell       101 err:
+信息: 用提供的模式无法找到文件。
+
+INFO  2023-08-23 15:49:32,958 minium_object.py _do_shell       102 out:
+
+WARNI 2023-08-23 15:49:32,959 wx_minium.py __setup_dev_tool 190 default dev_tool_path[C:/Program Files (x86)/Tencent/微信web开发者工具/cli.bat] not exists and command[cli.bat] not found
+INFO  2023-08-23 15:49:32,959 wx_minium.py launch_dev_tool 565 Starting dev tool and launch MiniProgram project ...
+WARNI 2023-08-23 15:49:32,960 wx_minium.py launch_dev_tool 610 Can not find `project_path` in config, that means you must open dev tool by automation way first
+WARNI 2023-08-23 15:49:32,960 wx_minium.py launch_dev_tool 614 If you are not running command like [cli auto --project /path/to/project --auto-port 9420], you may config `project_path` or run this command first
+INFO  2023-08-23 15:49:32,960 wx_minium.py connect_dev_tool 661 Trying to connect Dev tool ...
+ERROR 2023-08-23 15:49:37,213 connection.py _on_error       632 [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+INFO  2023-08-23 15:49:37,289 connection.py _ws_run_forever 367 websocket run forever shutdown

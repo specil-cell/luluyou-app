@@ -1,0 +1,26 @@
+INFO  2023-08-23 17:38:03,781 minitest.py _miniSetUp      340 =========Current case: test_liangyou=========
+INFO  2023-08-23 17:38:03,782 minitest.py _miniSetUp      343 package info: D:.路路游小程序.tests.test_login, case info: TestShouYe_1.test_liangyou
+INFO  2023-08-23 17:38:03,783 basenative.py wrapper         24  call BaseNative.check_connection
+INFO  2023-08-23 17:38:03,783 basenative.py wrapper         28  call BaseNative.check_connection end
+INFO  2023-08-23 17:38:03,785 minitest.py capture         686 capture setup.png
+INFO  2023-08-23 17:38:03,786 basenative.py wrapper         24  call IdeNative.screen_shot
+DEBUG 2023-08-23 17:38:03,787 connection.py _safely_send    417 SEND > {"id":"81be921f-3e28-477b-b2f0-877d2643c68a","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-08-23 17:38:05,236 connection.py _on_message     650 RECV < {"id":"81be921f-3e28-477b-b2f0-877d2643c68a","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAawAAAOeCAIAAADQh7N0AAAAAXNSR0IArs4c6QAAIABJREFUeJyMvdGSJLutJOgOMDK7pStdSTNm8zBm+7Cfsb+zv7F/rbmnKzMI+DwAZERWnzHb0lF3dVVmBIMEHQ4HiOT/8//+fyBJAiQoISLnnBHKzExBcNqw4WZu7u4gU5mZEZGZkiTRrK4jSEBmzjnnnJFBGs1M6TlH5mP4X/7yl7/8/Kuk93me55lKH8PGMHeQdD+Ox/PH8/l8RuTX6/V6vSSYmZmBkkJKggQkzXm+Xl/v1ytjZkTEOc/zPN/zPI0gOdyOYzwfj+M4AAEyMz8ex/OHj/F+v1+v1zlnZgoAYebug6SklAC4u7sfx/HXv/71r3/9K8mvr6+vr6/X61U3i0wAAMx4HOMYA1LMmZkkno/xOA53MyOhmPP19e...
+INFO  2023-08-23 17:38:05,241 basenative.py wrapper         28  call IdeNative.screen_shot end
+INFO  2023-08-23 17:38:05,242 minitest.py _miniSetUp      393 =========case: test_liangyou start=========
+DEBUG 2023-08-23 17:38:11,253 connection.py _safely_send    417 SEND > {"id":"156be06d-9526-428f-a41c-ed4e5a10b213","method":"App.getCurrentPage","params":{}}
+DEBUG 2023-08-23 17:38:11,257 connection.py _on_message     652 RECV < {"id":"156be06d-9526-428f-a41c-ed4e5a10b213","result":{"pageId":159,"path":"pages/index/index","query":{}}}
+DEBUG 2023-08-23 17:38:11,259 connection.py _safely_send    417 SEND > {"id":"22a11e67-4e95-4e82-9174-70be2e1836e0","method":"Page.getElementsByXpath","params":{"selector":"//*[@id=\"pay_year_car\"]","pageId":159}}
+DEBUG 2023-08-23 17:38:11,274 connection.py _on_message     652 RECV < {"id":"22a11e67-4e95-4e82-9174-70be2e1836e0","result":{"elements":[]}}
+DEBUG 2023-08-23 17:38:13,281 connection.py _safely_send    417 SEND > {"id":"50955618-89b8-497d-81e2-dcc6fb11e263","method":"Page.getElementsByXpath","params":{"selector":"/view/swiper","pageId":159}}
+DEBUG 2023-08-23 17:38:13,286 connection.py _on_message     652 RECV < {"id":"50955618-89b8-497d-81e2-dcc6fb11e263","result":{"elements":[]}}
+DEBUG 2023-08-23 17:38:15,299 connection.py _safely_send    417 SEND > {"id":"a50466cf-9d84-4f61-b776-5a3135bddf5b","method":"Page.getElementsByXpath","params":{"selector":"/view/ml-title/view/view/view/view[1]/text","pageId":159}}
+DEBUG 2023-08-23 17:38:15,306 connection.py _on_message     652 RECV < {"id":"a50466cf-9d84-4f61-b776-5a3135bddf5b","result":{"elements":[]}}
+DEBUG 2023-08-23 17:38:17,309 minitest.py _miniTearDown   589 =========Current case Down: test_liangyou=========
+INFO  2023-08-23 17:38:17,310 minitest.py capture         686 capture teardown.png
+INFO  2023-08-23 17:38:17,311 basenative.py wrapper         24  call IdeNative.screen_shot
+DEBUG 2023-08-23 17:38:17,312 connection.py _safely_send    417 SEND > {"id":"4b5b52ec-8425-4021-b1c9-ecf3930a9b04","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-08-23 17:38:18,835 connection.py _on_message     650 RECV < {"id":"4b5b52ec-8425-4021-b1c9-ecf3930a9b04","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAawAAAOeCAIAAADQh7N0AAAAAXNSR0IArs4c6QAAIABJREFUeJx8vdtyJFuuJOYOrEiy9u6ZI2ke5qv0VfpMvUlmGpPGRkene1eRGbEA1wOAyKw+I2WzabVJZkbEigWHw3EJ/s//y/96mDlggElUEkklSTPWC4DmFWZJCyki9t6ZiXlJEuBr0YxuMAOQmTtiR1z72nunlKApqTqcLGWSA066wUhzGWFMMBXJhGSQSUghU0JmZsROZSillHKOLwB1znXykkiaGWlmZjCb/3AzNzPQzYz84+Pj87HMaY61fDmX8TAsw2F8uFNYy3y5LYJ57evnr++fP7/OK3Zq7zyv6/z+3ufTIGVkBBQGGeGgw5bZY9lj8eF8OBbCKKeM6Z5r6bH8Y9nhOiwP6mPhMDyOtVYejsP5cC6DWy7TQX...
+INFO  2023-08-23 17:38:18,841 basenative.py wrapper         28  call IdeNative.screen_shot end
+INFO  2023-08-23 17:38:18,842 basenative.py wrapper         24  call BaseNative.get_start_up
+INFO  2023-08-23 17:38:18,842 basenative.py wrapper         28  call BaseNative.get_start_up end

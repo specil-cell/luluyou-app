@@ -1,0 +1,62 @@
+INFO  2023-08-24 09:58:14,098 minitest.py _miniSetUp      340 =========Current case: test_liangyou=========
+INFO  2023-08-24 09:58:14,099 minitest.py _miniSetUp      343 package info: D:.路路游小程序.tests.test_login, case info: TestShouYe_1.test_liangyou
+INFO  2023-08-24 09:58:14,099 basenative.py wrapper         24  call BaseNative.check_connection
+INFO  2023-08-24 09:58:14,100 basenative.py wrapper         28  call BaseNative.check_connection end
+INFO  2023-08-24 09:58:14,101 minitest.py capture         686 capture setup.png
+INFO  2023-08-24 09:58:14,102 basenative.py wrapper         24  call IdeNative.screen_shot
+DEBUG 2023-08-24 09:58:14,102 connection.py _safely_send    417 SEND > {"id":"66a62134-c69d-44d2-983b-7a626317b918","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-08-24 09:58:14,728 connection.py _on_message     650 RECV < {"id":"66a62134-c69d-44d2-983b-7a626317b918","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZ4AAAOACAIAAACFXYKaAAAAAXNSR0IArs4c6QAAIABJREFUeJzsvWmQG8ed4JtHXSgUbjQa6LvZ3Wzel0hRsqnTlnzIh2R5PDPe2djxeGZ3JnZ3Pm68iPdl33sRu5/2y+xsxLx5E45Ze+0Ij5+PN7bHti5LsqyDFG+ym2ffJxpo3KgzM9+HIltN9kEAbDSAZv4CoaDQhaqsf2X+639lJvzfGAMtBWx0Ayqnwqayu58KzwkrPjOt+LR1Aq76L4ezPUAAvIwJVqPbUS2tNU6q0m4VnrByCVR+2jrRWg+LszOAAIgACEaj21EtLTRaWqip9aPFnAJO6wMBEAAQ7Ea3oypaS1lU1drK7bs6NaAeNNxs3KnU78nugOeFAHAAEBrdjOpgTTBcK6SqUQ2rObiq03J2JDtAAdUPVzgCan...
+INFO  2023-08-24 09:58:14,730 basenative.py wrapper         28  call IdeNative.screen_shot end
+INFO  2023-08-24 09:58:14,732 minitest.py _miniSetUp      393 =========case: test_liangyou start=========
+DEBUG 2023-08-24 09:58:20,743 connection.py _safely_send    417 SEND > {"id":"a1b2b300-8a70-4782-9b90-6d2f6b6ee896","method":"App.getCurrentPage","params":{}}
+DEBUG 2023-08-24 09:58:20,747 connection.py _on_message     652 RECV < {"id":"a1b2b300-8a70-4782-9b90-6d2f6b6ee896","result":{"pageId":13,"path":"pages/index/index","query":{}}}
+DEBUG 2023-08-24 09:58:20,749 connection.py _safely_send    417 SEND > {"id":"97798793-1254-487c-aac4-cb6445df7208","method":"Page.getElementsByXpath","params":{"selector":"//*[@id=\"nav-item-notice\"]/navigator[1]/view","pageId":13}}
+DEBUG 2023-08-24 09:58:20,762 connection.py _on_message     652 RECV < {"id":"97798793-1254-487c-aac4-cb6445df7208","result":{"elements":[]}}
+DEBUG 2023-08-24 09:58:22,778 connection.py _safely_send    417 SEND > {"id":"52c8f8e2-2aea-4a00-b5cf-be595a370f12","method":"Page.getElementsByXpath","params":{"selector":"/view/swiper","pageId":13}}
+DEBUG 2023-08-24 09:58:22,782 connection.py _on_message     652 RECV < {"id":"52c8f8e2-2aea-4a00-b5cf-be595a370f12","result":{"elements":[]}}
+DEBUG 2023-08-24 09:58:24,792 connection.py _safely_send    417 SEND > {"id":"30b6c328-7f90-4542-9b65-69c8225ef1e3","method":"Page.getElementsByXpath","params":{"selector":"/view/ml-title/view/view/view/view[1]/text","pageId":13}}
+DEBUG 2023-08-24 09:58:24,798 connection.py _on_message     652 RECV < {"id":"30b6c328-7f90-4542-9b65-69c8225ef1e3","result":{"elements":[]}}
+DEBUG 2023-08-24 09:58:26,809 connection.py _safely_send    417 SEND > {"id":"a5541059-7d80-40a3-8f00-dad409d6ff0e","method":"Page.getElementsByXpath","params":{"selector":"//*[@id=\"nav-item-notice\"]/navigator[2]/view","pageId":13}}
+DEBUG 2023-08-24 09:58:26,830 connection.py _on_message     652 RECV < {"id":"a5541059-7d80-40a3-8f00-dad409d6ff0e","result":{"elements":[]}}
+DEBUG 2023-08-24 09:58:26,831 connection.py _safely_send    417 SEND > {"id":"ae5bea52-bc0e-4d84-97e6-6d42dd21a5f9","method":"Page.getElementsByXpath","params":{"selector":"/view/view[2]/view[1]/input","pageId":13}}
+DEBUG 2023-08-24 09:58:26,836 connection.py _on_message     652 RECV < {"id":"ae5bea52-bc0e-4d84-97e6-6d42dd21a5f9","result":{"elements":[]}}
+DEBUG 2023-08-24 09:58:26,838 connection.py _safely_send    417 SEND > {"id":"3e9cdbb6-1597-49f8-b76e-350b6552032a","method":"Page.getElementsByXpath","params":{"selector":"/view/view[2]/view[2]/input","pageId":13}}
+DEBUG 2023-08-24 09:58:26,845 connection.py _on_message     652 RECV < {"id":"3e9cdbb6-1597-49f8-b76e-350b6552032a","result":{"elements":[]}}
+DEBUG 2023-08-24 09:58:26,846 connection.py _safely_send    417 SEND > {"id":"d5d08ce4-1444-4da3-8397-151b1ce3385b","method":"Page.getElementsByXpath","params":{"selector":"/view/view[2]/view[3]/input","pageId":13}}
+DEBUG 2023-08-24 09:58:26,853 connection.py _on_message     652 RECV < {"id":"d5d08ce4-1444-4da3-8397-151b1ce3385b","result":{"elements":[]}}
+DEBUG 2023-08-24 09:58:26,855 connection.py _safely_send    417 SEND > {"id":"9b79bcd2-0e24-4641-9253-3bd5b2b9784b","method":"Page.getElementsByXpath","params":{"selector":"/view/view[2]/view[4]/input","pageId":13}}
+DEBUG 2023-08-24 09:58:26,860 connection.py _on_message     652 RECV < {"id":"9b79bcd2-0e24-4641-9253-3bd5b2b9784b","result":{"elements":[]}}
+DEBUG 2023-08-24 09:58:26,861 connection.py _safely_send    417 SEND > {"id":"5b607210-7f00-4ff7-8ca7-69c56cfd3851","method":"Page.getElementsByXpath","params":{"selector":"/view/view[3]/checkbox-group/label/checkbox","pageId":13}}
+DEBUG 2023-08-24 09:58:26,868 connection.py _on_message     652 RECV < {"id":"5b607210-7f00-4ff7-8ca7-69c56cfd3851","result":{"elements":[]}}
+DEBUG 2023-08-24 09:58:26,870 connection.py _safely_send    417 SEND > {"id":"e504145a-7a2a-4d3c-9ef7-6ea84bd8a772","method":"Page.getElementsByXpath","params":{"selector":"/view/view[3]/checkbox-group/label/checkbox","pageId":13}}
+DEBUG 2023-08-24 09:58:26,874 connection.py _on_message     652 RECV < {"id":"e504145a-7a2a-4d3c-9ef7-6ea84bd8a772","result":{"elements":[]}}
+DEBUG 2023-08-24 09:58:26,875 connection.py _safely_send    417 SEND > {"id":"75327688-765f-430c-b9a6-259d447217d8","method":"Page.getElementsByXpath","params":{"selector":"/view/ml-popup-modal/uni-popup/view/view/uni-transition[2]/view/view/view[1]/view[3]/button[2]","pageId":13}}
+DEBUG 2023-08-24 09:58:26,880 connection.py _on_message     652 RECV < {"id":"75327688-765f-430c-b9a6-259d447217d8","result":{"elements":[]}}
+DEBUG 2023-08-24 09:58:26,881 connection.py _safely_send    417 SEND > {"id":"7bd81c01-2e26-412f-95d1-754d455c99a6","method":"Page.getElementsByXpath","params":{"selector":"/view/ml-popup-modal/uni-popup/view/view/uni-transition[2]/view/view/view[1]/view[1]/text","pageId":13}}
+DEBUG 2023-08-24 09:58:26,888 connection.py _on_message     652 RECV < {"id":"7bd81c01-2e26-412f-95d1-754d455c99a6","result":{"elements":[]}}
+DEBUG 2023-08-24 09:58:26,889 connection.py _safely_send    417 SEND > {"id":"f6cf8f50-33aa-4589-8a81-d1c6b3545074","method":"Page.getElementsByXpath","params":{"selector":"/view/ml-title/view/view/view/view[1]/text","pageId":13}}
+DEBUG 2023-08-24 09:58:26,894 connection.py _on_message     652 RECV < {"id":"f6cf8f50-33aa-4589-8a81-d1c6b3545074","result":{"elements":[]}}
+DEBUG 2023-08-24 09:58:26,895 connection.py _safely_send    417 SEND > {"id":"a5f02f93-d32d-41a4-8f26-e37e0fee82d4","method":"Page.getElementsByXpath","params":{"selector":"//*[@id=\"nav-item-notice\"]/navigator[3]/view","pageId":13}}
+DEBUG 2023-08-24 09:58:26,904 connection.py _on_message     652 RECV < {"id":"a5f02f93-d32d-41a4-8f26-e37e0fee82d4","result":{"elements":[]}}
+DEBUG 2023-08-24 09:58:26,905 connection.py _safely_send    417 SEND > {"id":"a1054b03-0755-4249-b848-48217d146618","method":"Page.getElementsByXpath","params":{"selector":"/view/view/view[2]","pageId":13}}
+DEBUG 2023-08-24 09:58:26,909 connection.py _on_message     652 RECV < {"id":"a1054b03-0755-4249-b848-48217d146618","result":{"elements":[]}}
+DEBUG 2023-08-24 09:58:26,911 connection.py _safely_send    417 SEND > {"id":"646f66e2-2563-47da-a892-8086a48d4756","method":"Page.getElementsByXpath","params":{"selector":"/view/swiper/swiper-item[2]/scroll-view/view[1]/view[2]/view[2]/view[4]/button","pageId":13}}
+DEBUG 2023-08-24 09:58:26,915 connection.py _on_message     652 RECV < {"id":"646f66e2-2563-47da-a892-8086a48d4756","result":{"elements":[]}}
+DEBUG 2023-08-24 09:58:26,917 connection.py _safely_send    417 SEND > {"id":"5dc9a7f3-17d4-415c-985c-872004acc58c","method":"Page.getElementsByXpath","params":{"selector":"/view/view[4]/button","pageId":13}}
+DEBUG 2023-08-24 09:58:26,922 connection.py _on_message     652 RECV < {"id":"5dc9a7f3-17d4-415c-985c-872004acc58c","result":{"elements":[]}}
+DEBUG 2023-08-24 09:58:26,924 connection.py _safely_send    417 SEND > {"id":"073a6d87-2e3c-464b-a6eb-4ec725a5931b","method":"Page.getElementsByXpath","params":{"selector":"/view/ml-popup-modal/uni-popup/view/view/uni-transition[2]/view/view/view[1]/view[3]/button[2]","pageId":13}}
+DEBUG 2023-08-24 09:58:26,928 connection.py _on_message     652 RECV < {"id":"073a6d87-2e3c-464b-a6eb-4ec725a5931b","result":{"elements":[]}}
+DEBUG 2023-08-24 09:58:31,944 connection.py _safely_send    417 SEND > {"id":"dd9e889c-7632-4028-a331-c70a191f1f57","method":"Page.getElementsByXpath","params":{"selector":"/view/ml-popup-modal/uni-popup/view/view/uni-transition[2]/view/view/view[1]/view[3]/button","pageId":13}}
+DEBUG 2023-08-24 09:58:31,950 connection.py _on_message     652 RECV < {"id":"dd9e889c-7632-4028-a331-c70a191f1f57","result":{"elements":[]}}
+DEBUG 2023-08-24 09:58:31,953 connection.py _safely_send    417 SEND > {"id":"c89a884e-b639-42d5-80b1-1a725fecd678","method":"Page.getElementsByXpath","params":{"selector":"/view/ml-title/view/view/view/view[1]/text","pageId":13}}
+DEBUG 2023-08-24 09:58:31,960 connection.py _on_message     652 RECV < {"id":"c89a884e-b639-42d5-80b1-1a725fecd678","result":{"elements":[]}}
+DEBUG 2023-08-24 09:58:31,962 connection.py _safely_send    417 SEND > {"id":"f5d25104-c634-418d-860b-97c6a1ca2205","method":"Page.getElementsByXpath","params":{"selector":"/view/ml-title/view/view/view/view[1]/text","pageId":13}}
+DEBUG 2023-08-24 09:58:31,967 connection.py _on_message     652 RECV < {"id":"f5d25104-c634-418d-860b-97c6a1ca2205","result":{"elements":[]}}
+DEBUG 2023-08-24 09:58:31,969 minitest.py _miniTearDown   589 =========Current case Down: test_liangyou=========
+INFO  2023-08-24 09:58:31,970 minitest.py capture         686 capture teardown.png
+INFO  2023-08-24 09:58:31,970 basenative.py wrapper         24  call IdeNative.screen_shot
+DEBUG 2023-08-24 09:58:31,972 connection.py _safely_send    417 SEND > {"id":"4f857886-f200-4ee9-8030-accb02919317","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-08-24 09:58:33,500 connection.py _on_message     650 RECV < {"id":"4f857886-f200-4ee9-8030-accb02919317","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAZ4AAAOACAIAAACFXYKaAAAAAXNSR0IArs4c6QAAIABJREFUeJyEvVGWJDmOJCgCUM08M6umu3pmv/Zj77HXmWvMrXsqwt2UgMwHQKqaR1SPZzzPCHczVSoJCAQCkMb//3/+L5AkARKUMGfMOTOVmUoAHPRh7ububmaSIiOyvwQAoBlJAYIyc855nmdKJOlmmSPmAT2P46+//vrjz79er9fX19eMoNGPYT5oRto4jsfH8/l8kvb5+fnz81OCmZkZKCmkJEgyI87z/Pr6PL8+MyNjxpxzvs7XKyNImPEY4/F4PB6HmwECcDyO8fgw9xnx9fV1nmdCkkiau9kgKalGbmZjjI+Pj7/++uvPP/98vV6fn5+fn5+v83We5zknAElmHGM8jmFm8zxjTjM+jvE4xhhmRiNf5+v18+fr9R...
+INFO  2023-08-24 09:58:33,506 basenative.py wrapper         28  call IdeNative.screen_shot end
+INFO  2023-08-24 09:58:33,507 basenative.py wrapper         24  call BaseNative.get_start_up
+INFO  2023-08-24 09:58:33,507 basenative.py wrapper         28  call BaseNative.get_start_up end

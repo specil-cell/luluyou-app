@@ -1,0 +1,102 @@
+INFO  2023-08-23 15:52:43,331 minitest.py _miniSetUp      340 =========Current case: test_handle_modal_02=========
+INFO  2023-08-23 15:52:43,333 minitest.py _miniSetUp      343 package info: D:.路路游小程序.tests.test_login, case info: TestShouYe_1.test_handle_modal_02
+INFO  2023-08-23 15:52:43,333 basenative.py wrapper         24  call BaseNative.check_connection
+INFO  2023-08-23 15:52:43,335 basenative.py wrapper         28  call BaseNative.check_connection end
+INFO  2023-08-23 15:52:43,364 minitest.py capture         686 capture setup.png
+INFO  2023-08-23 15:52:43,368 basenative.py wrapper         24  call IdeNative.screen_shot
+DEBUG 2023-08-23 15:52:43,370 connection.py _safely_send    417 SEND > {"id":"69f57f6f-07e5-4ef1-ae08-472a2673d5b8","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-08-23 15:52:43,542 connection.py _on_message     650 RECV < {"id":"69f57f6f-07e5-4ef1-ae08-472a2673d5b8","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAawAAANDCAIAAAB+J7yFAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3VlsHedh//3ZZ86+L9x5SIqbqJWyZS2WFadxEjuJEwco2rhL3AZN8b7ogqItUAQFAhRoLtrLtMA/CVK0yZtmqWs7dh3bsaRItixbokRxFUVxEdez7/tsz3sxySn/kmxLFC3Rmt/nypwzq4F888zMc45pQggFAGBKhBDmfp8DAMD9hAgCgKkhggBgaoggAJgaIggApoYIAoCpIYIAYGqIIACYGiIIAKaGCAKAqSGCAGBqiCAAmBoiCACmhggCgKkhggBgatydblBR63VdERneyokfxQkBANxLdzwS1Imu6ZpO6R/F2QAA3GM0flkaAEwLvywNAGaHCAKAqSGCAGBqiCAAmBoiCACmhggCgKkhggBgaoggAJ...
+INFO  2023-08-23 15:52:43,544 basenative.py wrapper         28  call IdeNative.screen_shot end
+INFO  2023-08-23 15:52:43,544 minitest.py _miniSetUp      393 =========case: test_handle_modal_02 start=========
+DEBUG 2023-08-23 15:52:43,545 connection.py _safely_send    417 SEND > {"id":"4c2d3c01-f7a3-4868-9807-4b3cc0f73bab","method":"App.addBinding","params":{"name":"showModal_super_callback"}}
+DEBUG 2023-08-23 15:52:43,548 connection.py _on_message     652 RECV < {"id":"4c2d3c01-f7a3-4868-9807-4b3cc0f73bab","result":{}}
+DEBUG 2023-08-23 15:52:43,551 connection.py _safely_send    417 SEND > {"id":"10a83b21-616b-48eb-9aea-8b3b274616a9","method":"App.callFunction","params":{"functionDeclaration":"function hookWxMethod(){var e,_=wx._MINI_WX_PROXY_||wx;_.showModal_MiniumOrigin?e=_.showModal_MiniumOrigin:(e=_.showModal,Object.defineProperty(_,\"showModal_MiniumOrigin\",{configurable:!0,get:()=>e})),Object.defineProperty(_,\"showModal\",{configurable:!0,get:()=>function(..._){var t,n=_[0],$=!1;if(\"showModal\".endsWith(\"Sync\")||n&&(n.success||n.fail||n.complete)||($=!0),\"undefined\"!=typeof showModal_super_before&&showModal_super_before(..._),\"undefined\"!=typeof showModal_super_callback)if($)t=e(..._).then((function(e){return showModal_super_callback(e),e})).catch((function(e){throw showModal_super_callback(e),e}));else{if(n){var o=n.complete;n.complete=function(e){showModal_super_callback(e),o&&o(e)}}t=e(..._)}else t=e(..._);return\"undefined\"!=typeof showModal_super_after&&showModal_super_after(t),t}})}","args":[]}}
+DEBUG 2023-08-23 15:52:43,555 connection.py _on_message     652 RECV < {"id":"10a83b21-616b-48eb-9aea-8b3b274616a9","result":{}}
+INFO  2023-08-23 15:52:43,556 page.py    _get_elements_by_css 557 try to get elements: text="安徽省-安庆市!"
+DEBUG 2023-08-23 15:52:43,557 connection.py _safely_send    417 SEND > {"id":"2daf4329-9177-47e4-833f-95889cc04f2d","method":"Page.getElements","params":{"selector":"text=\"\u5b89\u5fbd\u7701-\u5b89\u5e86\u5e02!\"","pageId":87}}
+DEBUG 2023-08-23 15:52:43,581 connection.py _on_message     650 RECV < {"id":"2daf4329-9177-47e4-833f-95889cc04f2d","result":{"elements":[{"elementId":"d329812c-5e3d-44a2-808f-3ad8628ad3df","tagName":"text"},{"elementId":"1289ad7d-a8e6-4b90-9dfa-0d171af257e6","tagName":"text"},{"elementId":"bf8314dc-ab5a-401a-a7ce-01da32bb5385","tagName":"text"},{"elementId":"e55831bb-3324-4c41-9427-79a0d57e75b3","tagName":"text"},{"elementId":"0ddb9941-5a88-4ce7-baaa-7e073d2d13c0","tagName":"text"},{"elementId":"018037b9-d1b4-46f6-a46a-ef8ca3c5ff21","tagName":"text"},{"elementId":"dda57ecb...
+INFO  2023-08-23 15:52:43,586 page.py    _get_elements_by_css 564 find elements success: [<minium.miniprogram.base_driver.element.BaseElement object at 0x0000023CDF5E0F40>]
+DEBUG 2023-08-23 15:52:43,587 connection.py _safely_send    417 SEND > {"id":"16b57353-d0af-4845-be18-8af96b5fb1fb","method":"Element.tap","params":{"elementId":"d329812c-5e3d-44a2-808f-3ad8628ad3df","pageId":87}}
+DEBUG 2023-08-23 15:52:43,595 connection.py _on_message     652 RECV < {"id":"16b57353-d0af-4845-be18-8af96b5fb1fb","result":{}}
+INFO  2023-08-23 15:52:45,599 basenative.py wrapper         24  call IdeNative.handle_modal
+INFO  2023-08-23 15:52:45,599 basenative.py wrapper         24  call IdeNative.send
+DEBUG 2023-08-23 15:52:45,600 connection.py _safely_send    417 SEND > {"id":"b843b675-1905-4258-bd64-7e01782d54e4","method":"Tool.native","params":{"method":"confirmModal","data":null}}
+DEBUG 2023-08-23 15:52:45,608 connection.py _on_message     652 RECV < {"id":"b843b675-1905-4258-bd64-7e01782d54e4","result":{}}
+INFO  2023-08-23 15:52:45,609 basenative.py wrapper         28  call IdeNative.send end
+INFO  2023-08-23 15:52:45,610 basenative.py wrapper         27  IdeNative.handle_modal return {'id': 'b843b675-1905-4258-bd64-7e01782d54e4', 'result': {}}
+INFO  2023-08-23 15:52:45,611 basenative.py wrapper         28  call IdeNative.handle_modal end
+DEBUG 2023-08-23 15:52:45,648 connection.py _on_message     652 RECV < {"method":"App.bindingCalled","params":{"name":"showModal_super_callback","args":[{"errMsg":"showModal:ok","cancel":false,"confirm":true,"content":null}]}}
+DEBUG 2023-08-23 15:52:45,651 app.py     super_callback  971 wx.showModal callback hook result: [{'errMsg': 'showModal:ok', 'cancel': False, 'confirm': True, 'content': None}]
+DEBUG 2023-08-23 15:52:45,654 app.py     super_callback  971 wx.showModal callback hook result: [{'errMsg': 'showModal:ok', 'cancel': False, 'confirm': True, 'content': None}]
+DEBUG 2023-08-23 15:52:45,843 connection.py _on_message     652 RECV < {"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"webviewId":10,"path":"pages/index/index","query":{},"openType":"navigateBack","__ts__":1692777165830},1692777165841]}}
+INFO  2023-08-23 15:52:45,846 app.py     _on_route_changed 845 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 10, 'path': 'pages/index/index', 'query': {}, 'openType': 'navigateBack', '__ts__': 1692777165830}, 1692777165841]}
+DEBUG 2023-08-23 15:52:45,907 connection.py _on_message     652 RECV < {"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"webviewId":10,"path":"pages/index/index","query":{},"openType":"navigateBack","__ts__":1692777165890},1692777165891]}}
+INFO  2023-08-23 15:52:45,908 app.py     _on_route_changed 845 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 10, 'path': 'pages/index/index', 'query': {}, 'openType': 'navigateBack', '__ts__': 1692777165890}, 1692777165891]}
+DEBUG 2023-08-23 15:52:48,620 connection.py _safely_send    417 SEND > {"id":"59741850-d1b5-4ecf-8939-56c95068c054","method":"Page.getElementsByXpath","params":{"selector":"/view/biz-index-head/view/navigator","pageId":10}}
+DEBUG 2023-08-23 15:52:48,628 connection.py _on_message     652 RECV < {"id":"59741850-d1b5-4ecf-8939-56c95068c054","result":{"elements":[{"elementId":"8a6c37cf-b95e-41ca-83ad-5e3e119e85d0","tagName":"navigator"}]}}
+DEBUG 2023-08-23 15:52:48,630 connection.py _safely_send    417 SEND > {"id":"d0f94fa0-9ec1-47a5-98ef-65c821a487fb","method":"Element.getStyles","params":{"names":["pointer-events"],"elementId":"8a6c37cf-b95e-41ca-83ad-5e3e119e85d0","pageId":10}}
+DEBUG 2023-08-23 15:52:48,634 connection.py _on_message     652 RECV < {"id":"d0f94fa0-9ec1-47a5-98ef-65c821a487fb","result":{"styles":["auto"]}}
+DEBUG 2023-08-23 15:52:48,635 connection.py _safely_send    417 SEND > {"id":"c8cbd72d-73bf-4685-9fc1-96e98a876ae4","method":"Element.tap","params":{"elementId":"8a6c37cf-b95e-41ca-83ad-5e3e119e85d0","pageId":10}}
+DEBUG 2023-08-23 15:52:48,715 connection.py _on_message     652 RECV < {"id":"c8cbd72d-73bf-4685-9fc1-96e98a876ae4","result":{}}
+DEBUG 2023-08-23 15:52:49,119 connection.py _on_message     652 RECV < {"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"webviewId":88,"path":"pages/search/search","query":{"type":"2"},"openType":"navigateTo","__ts__":1692777169102},1692777169104]}}
+INFO  2023-08-23 15:52:49,121 app.py     _on_route_changed 845 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 88, 'path': 'pages/search/search', 'query': {'type': '2'}, 'openType': 'navigateTo', '__ts__': 1692777169102}, 1692777169104]}
+DEBUG 2023-08-23 15:52:52,732 connection.py _safely_send    417 SEND > {"id":"dd224dca-8f7f-40f3-9f57-8a0df0b71f25","method":"Page.getElementsByXpath","params":{"selector":"/view/view[2]/view/view[2]/view","pageId":88}}
+DEBUG 2023-08-23 15:52:52,738 connection.py _on_message     652 RECV < {"id":"dd224dca-8f7f-40f3-9f57-8a0df0b71f25","result":{"elements":[{"elementId":"7d38dc73-19fb-4c03-9bf1-fa35ca2e1081","tagName":"view"}]}}
+DEBUG 2023-08-23 15:52:52,740 connection.py _safely_send    417 SEND > {"id":"cae73f08-202c-4fe7-8345-d86f9a026666","method":"Element.getStyles","params":{"names":["pointer-events"],"elementId":"7d38dc73-19fb-4c03-9bf1-fa35ca2e1081","pageId":88}}
+DEBUG 2023-08-23 15:52:52,743 connection.py _on_message     652 RECV < {"id":"cae73f08-202c-4fe7-8345-d86f9a026666","result":{"styles":["auto"]}}
+DEBUG 2023-08-23 15:52:52,744 connection.py _safely_send    417 SEND > {"id":"e2fdde80-6d9e-4f6e-9642-2002ae447b34","method":"Element.tap","params":{"elementId":"7d38dc73-19fb-4c03-9bf1-fa35ca2e1081","pageId":88}}
+DEBUG 2023-08-23 15:52:52,766 connection.py _on_message     652 RECV < {"id":"e2fdde80-6d9e-4f6e-9642-2002ae447b34","result":{}}
+DEBUG 2023-08-23 15:52:53,773 connection.py _safely_send    417 SEND > {"id":"13d8ea44-9c9e-4c01-8732-40c77ca52b29","method":"Page.getElementsByXpath","params":{"selector":"/view/view[2]/list/view/view/navigator","pageId":88}}
+DEBUG 2023-08-23 15:52:53,778 connection.py _on_message     652 RECV < {"id":"13d8ea44-9c9e-4c01-8732-40c77ca52b29","result":{"elements":[{"elementId":"60020b35-ed79-4d29-b8d9-f2f99854392e","tagName":"navigator"}]}}
+DEBUG 2023-08-23 15:52:53,780 connection.py _safely_send    417 SEND > {"id":"5b42594d-d50d-4fcb-9472-a613dccfcda8","method":"Element.getStyles","params":{"names":["pointer-events"],"elementId":"60020b35-ed79-4d29-b8d9-f2f99854392e","pageId":88}}
+DEBUG 2023-08-23 15:52:53,784 connection.py _on_message     652 RECV < {"id":"5b42594d-d50d-4fcb-9472-a613dccfcda8","result":{"styles":["auto"]}}
+DEBUG 2023-08-23 15:52:53,785 connection.py _safely_send    417 SEND > {"id":"70482c82-69a8-416c-81b0-877df9be5c56","method":"Element.tap","params":{"elementId":"60020b35-ed79-4d29-b8d9-f2f99854392e","pageId":88}}
+DEBUG 2023-08-23 15:52:53,862 connection.py _on_message     652 RECV < {"id":"70482c82-69a8-416c-81b0-877df9be5c56","result":{}}
+DEBUG 2023-08-23 15:52:54,464 connection.py _on_message     652 RECV < {"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"webviewId":89,"path":"pages/trip/spot-detail","query":{"spotId":"a705468ad4674dea805f051c5e27c9e6","activityId":"6d4c3aed7bc9402d871788bb4d0adda6","appointId":"9273321a2703426dbab0c04e4ca0ca64"},"openType":"navigateTo","__ts__":1692777174446},1692777174448]}}
+INFO  2023-08-23 15:52:54,468 app.py     _on_route_changed 845 Route changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 89, 'path': 'pages/trip/spot-detail', 'query': {'spotId': 'a705468ad4674dea805f051c5e27c9e6', 'activityId': '6d4c3aed7bc9402d871788bb4d0adda6', 'appointId': '9273321a2703426dbab0c04e4ca0ca64'}, 'openType': 'navigateTo', '__ts__': 1692777174446}, 1692777174448]}
+DEBUG 2023-08-23 15:52:54,869 connection.py _safely_send    417 SEND > {"id":"3a0ca448-7992-4dc4-90c6-ccbb3e70462f","method":"Page.getElementsByXpath","params":{"selector":"/view/view[5]/view/button/text()\"\u7acb\u5373\u9884\u7ea6\"","pageId":89}}
+DEBUG 2023-08-23 15:52:54,899 connection.py _on_message     652 RECV < {"id":"3a0ca448-7992-4dc4-90c6-ccbb3e70462f","error":{"message":"XPath parse error"}}
+ERROR 2023-08-23 15:52:54,901 connection.py _on_message     660 [3a0ca448-7992-4dc4-90c6-ccbb3e70462f]: XPath parse error
+DEBUG 2023-08-23 15:52:54,904 minitest.py _miniTearDown   589 =========Current case Down: test_handle_modal_02=========
+INFO  2023-08-23 15:52:54,907 minitest.py capture         686 capture teardown.png
+INFO  2023-08-23 15:52:54,908 basenative.py wrapper         24  call IdeNative.screen_shot
+DEBUG 2023-08-23 15:52:54,918 connection.py _safely_send    417 SEND > {"id":"62c436e5-782d-4449-8d0a-2a76a39ecc84","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-08-23 15:52:55,676 connection.py _on_message     650 RECV < {"id":"62c436e5-782d-4449-8d0a-2a76a39ecc84","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAawAAAOeCAIAAADQh7N0AAAAAXNSR0IArs4c6QAAIABJREFUeJy0vfmTJbeRJvi5AxHvyPuok3WweImiRN3drb7mtP1p969ds5k1W5ux3Rnr3ukZ2ahbUpOiSPFmFYusI+98RwTc9wcHEIh4L6uk7umQKpn5XgQCcPjxucPhoP3xHhEREQAlKBGYFACgQFBdiigUgN0zuFhQfqqqIkJEzExETMSqDBCgqqpqXyG1r6pi36y0bK8jBfW/jJ/nzqhqkKu+VaiSEscbV38y4MCr48oDAgRQFG/LnTW6tSpKZIO194rE/pCCFV7BxQjsKWtHFEoEMEAKzRPR64AqQUDd0PLj9n0mkfdeRPJX9lOYhZ32ZgnWVYVCrf3EAKq5BWa2SSQiURUoiIQQSP1oNN6cEvNisWzbVjTeGWdWIa...
+INFO  2023-08-23 15:52:55,679 basenative.py wrapper         28  call IdeNative.screen_shot end
+INFO  2023-08-23 15:52:55,680 basenative.py wrapper         24  call BaseNative.get_start_up
+INFO  2023-08-23 15:52:55,681 basenative.py wrapper         28  call BaseNative.get_start_up end
+ERROR 2023-08-23 15:52:55,690 assertbase.py _get_stack_info 341 <bound method TestShouYe_1.test_handle_modal_02 of <tests.test_login.TestShouYe_1 testMethod=test_handle_modal_02>>
+Traceback (most recent call last):
+  File "D:\software\python-3.10.10\lib\site-packages\minium\framework\libs\unittest\case.py", line 265, in testPartExecutor
+    yield
+  File "D:\software\python-3.10.10\lib\site-packages\minium\framework\libs\unittest\case.py", line 350, in run
+    self._callTestMethod(testMethod)
+  File "D:\software\python-3.10.10\lib\unittest\case.py", line 549, in _callTestMethod
+    method()
+  File "D:\路路游小程序\tests\test_login.py", line 116, in test_handle_modal_02
+    elements = self.page.get_elements(
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\app.py", line 214, in wrapper
+    return func(*args, **kwargs)
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\minium_log.py", line 172, in wrapper
+    result = func(*args, **kwargs)
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\page.py", line 373, in get_elements
+    return self.get_elements_by_xpath(
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\minium_log.py", line 172, in wrapper
+    result = func(*args, **kwargs)
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\page.py", line 441, in get_elements_by_xpath
+    return search_elements()
+  File "D:\software\python-3.10.10\lib\site-packages\minium\utils\utils.py", line 56, in wrapper
+    r = func(*args, **kwargs)
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\page.py", line 439, in search_elements
+    return self._get_elements_by_xpath(xpath, index=index)
+  File "D:\software\python-3.10.10\lib\site-packages\minium\utils\utils.py", line 82, in wrapper
+    ret = func(*args, **kwargs)
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\page.py", line 658, in _get_elements_by_xpath
+    ret = self._send("Page.getElementsByXpath", {"selector": xpath})
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\page.py", line 488, in _send
+    self.connection.send(method, params)
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 447, in send
+    return self._receive_response(cmd)
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 473, in _receive_response
+    raise response
+minium.framework.exception.MiniCommandError: XPath parse error

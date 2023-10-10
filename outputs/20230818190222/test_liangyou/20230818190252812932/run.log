@@ -1,0 +1,46 @@
+INFO  2023-08-18 19:02:52,814 minitest.py _miniSetUp      340 =========Current case: test_liangyou=========
+INFO  2023-08-18 19:02:52,815 minitest.py _miniSetUp      343 package info: D:.路路游小程序.tests.test_login, case info: TestShouye_1.test_liangyou
+INFO  2023-08-18 19:02:52,815 basenative.py wrapper         24  call BaseNative.check_connection
+INFO  2023-08-18 19:02:52,816 basenative.py wrapper         28  call BaseNative.check_connection end
+INFO  2023-08-18 19:02:52,817 minitest.py capture         686 capture setup.png
+INFO  2023-08-18 19:02:52,817 basenative.py wrapper         24  call IdeNative.screen_shot
+DEBUG 2023-08-18 19:02:52,818 connection.py _safely_send    417 SEND > {"id":"22b4c167-ea84-4c8b-9ecd-924e3a581a56","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-08-18 19:02:53,116 connection.py _on_message     650 RECV < {"id":"22b4c167-ea84-4c8b-9ecd-924e3a581a56","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAawAAAOeCAIAAADQh7N0AAAAAXNSR0IArs4c6QAAIABJREFUeJzsvVlwXEea35vLWavOqX3FDhDgLq6iFqrZotSSepveRjM9E3aHx08TdkRHOOZG2HEf7oPj3gjbD54H2+GIex/GcW/E2J72TKvVPepFrYXq1kKR4iKuAEnsxFoo1F5nP5n34ZBoEABBVAEFVBH5CwRDqjqVJ0+ezP/5vswvvwP/d0pBCwJ3ugK1svEK04d/GywWbrjwmkpuHBuvMIPRaJKUctZOV6IOWnEI1VTnWkVw48WC5hBBxjbQoHbe8f6ztdgAcMZOV6IOWnEU1VTnWnWtJna29ZpEiJ96GnqXn5rbBwGwAOCcna5H3bSiFG6QWs3GRhTbOJ6aIdT8bPkdf/runQMAR3a6EnXg3dqn7354wNovbeO+c5...
+INFO  2023-08-18 19:02:53,121 basenative.py wrapper         28  call IdeNative.screen_shot end
+INFO  2023-08-18 19:02:53,121 minitest.py _miniSetUp      393 =========case: test_liangyou start=========
+INFO  2023-08-18 19:02:53,122 app.py     redirect_to     603 RedirectTo: pages/common/selected_city
+DEBUG 2023-08-18 19:02:53,123 connection.py _safely_send    417 ASYNC_SEND > {"id":"ef270f5b-d2d1-4ccf-983f-909f3868e123","method":"App.callWxMethod","params":{"method":"redirectTo","args":[{"url":"pages/common/selected_city"}]}}
+DEBUG 2023-08-18 19:02:53,130 connection.py _on_message     652 RECV < {"id":"ef270f5b-d2d1-4ccf-983f-909f3868e123","error":{"message":"page \"pages/index/pages/common/selected_city\" is not found"}}
+ERROR 2023-08-18 19:02:53,132 connection.py _on_message     660 [ef270f5b-d2d1-4ccf-983f-909f3868e123]: page "pages/index/pages/common/selected_city" is not found
+INFO  2023-08-18 19:02:53,133 connection.py _handle_async_msg 693 received async msg: ef270f5b-d2d1-4ccf-983f-909f3868e123
+DEBUG 2023-08-18 19:02:53,135 minitest.py _miniTearDown   589 =========Current case Down: test_liangyou=========
+INFO  2023-08-18 19:02:53,136 minitest.py capture         686 capture teardown.png
+INFO  2023-08-18 19:02:53,136 basenative.py wrapper         24  call IdeNative.screen_shot
+DEBUG 2023-08-18 19:02:53,137 connection.py _safely_send    417 SEND > {"id":"e93c5f90-5f98-475e-9182-45e6853d77f2","method":"App.captureScreenshot","params":{}}
+DEBUG 2023-08-18 19:02:53,552 connection.py _on_message     650 RECV < {"id":"e93c5f90-5f98-475e-9182-45e6853d77f2","result":{"data":"iVBORw0KGgoAAAANSUhEUgAAAawAAAOeCAIAAADQh7N0AAAAAXNSR0IArs4c6QAAIABJREFUeJzsvUmQHMeZ5+tL7BmR+1Z7FVCFnVgJkiAFcRFFSaONaqrVbRq1aU49M2ZtNtbvMPYO7zD2ntlMH6YPM2N9eIce0zPrHrWmW9TSlFpcRYkLSAAEiL0A1I5as7Jyz9jD/R0CKBVqQ2VWZVUmyn9WBiMzIz08PNz/8X3un38B/09KQQsCd7oCtbLxCtMHfxssFm648JpKbhwbrzCD0WhSlHL2TleiDlpxCNVU51pFcOPFguYQQcY20KB23vH+s7U4AHDmTleiDlpxFNVU51p1rSZ2tvWaRIgfexp6lx+b2wcBsAHg3J2uR920ohRukFrNxkYU2zgemyHU/Gz5HX/87p0LAEd2uhJ14N/ax+9++MDaL23jvnOT8L...
+INFO  2023-08-18 19:02:53,556 basenative.py wrapper         28  call IdeNative.screen_shot end
+INFO  2023-08-18 19:02:53,557 basenative.py wrapper         24  call BaseNative.get_start_up
+INFO  2023-08-18 19:02:53,557 basenative.py wrapper         28  call BaseNative.get_start_up end
+ERROR 2023-08-18 19:02:53,562 assertbase.py _get_stack_info 341 <bound method TestShouye_1.setUp of <tests.test_login.TestShouye_1 testMethod=test_liangyou>>
+Traceback (most recent call last):
+  File "D:\software\python-3.10.10\lib\site-packages\minium\framework\libs\unittest\case.py", line 265, in testPartExecutor
+    yield
+  File "D:\software\python-3.10.10\lib\site-packages\minium\framework\libs\unittest\case.py", line 344, in run
+    self._callSetUp()
+  File "D:\software\python-3.10.10\lib\unittest\case.py", line 546, in _callSetUp
+    self.setUp()
+  File "D:\路路游小程序\tests\test_login.py", line 53, in setUp
+    self.app.redirect_to("pages/common/selected_city")
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\minium_log.py", line 172, in wrapper
+    result = func(*args, **kwargs)
+  File "D:\software\python-3.10.10\lib\site-packages\minium\utils\utils.py", line 82, in wrapper
+    ret = func(*args, **kwargs)
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\app.py", line 604, in redirect_to
+    page = self._change_route_async("redirectTo", url, is_wait_url_change)
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\app.py", line 818, in _change_route_async
+    cmd.get_open_result(wait_timeout)
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\app.py", line 126, in get_open_result
+    return self._open_callback.get_result()
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\callback.py", line 126, in get_result
+    return self._waiter.result()
+minium.framework.exception.MiniCommandError: page "pages/index/pages/common/selected_city" is not found

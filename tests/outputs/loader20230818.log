@@ -1,0 +1,494 @@
+INFO  2023-08-18 16:35:51,456 minitest.py init_miniprogram 144 start init miniprogram
+INFO  2023-08-18 16:35:51,458 basenative.py wrapper         24  call IdeNative.start_wechat
+INFO  2023-08-18 16:35:51,459 basenative.py wrapper         28  call IdeNative.start_wechat end
+INFO  2023-08-18 16:35:51,460 minium_object.py _do_shell       83  de shell: where cli.bat
+INFO  2023-08-18 16:35:51,640 minium_object.py _do_shell       101 err:
+信息: 用提供的模式无法找到文件。
+
+INFO  2023-08-18 16:35:51,640 minium_object.py _do_shell       102 out:
+
+WARNI 2023-08-18 16:35:51,641 wx_minium.py __setup_dev_tool 190 default dev_tool_path[C:/Program Files (x86)/Tencent/微信web开发者工具/cli.bat] not exists and command[cli.bat] not found
+INFO  2023-08-18 16:35:51,641 wx_minium.py launch_dev_tool 565 Starting dev tool and launch MiniProgram project ...
+WARNI 2023-08-18 16:35:51,641 wx_minium.py launch_dev_tool 610 Can not find `project_path` in config, that means you must open dev tool by automation way first
+WARNI 2023-08-18 16:35:51,641 wx_minium.py launch_dev_tool 614 If you are not running command like [cli auto --project /path/to/project --auto-port 9420], you may config `project_path` or run this command first
+INFO  2023-08-18 16:35:51,642 wx_minium.py connect_dev_tool 661 Trying to connect Dev tool ...
+ERROR 2023-08-18 16:35:55,868 connection.py _on_error       632 [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+INFO  2023-08-18 16:35:55,914 connection.py _ws_run_forever 367 websocket run forever shutdown
+ERROR 2023-08-18 16:35:55,990 wx_minium.py connect_dev_tool 681 [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+Traceback (most recent call last):
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\wx_minium.py", line 662, in connect_dev_tool
+    self.connection = Connection.create(
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 169, in create
+    instance = cls(uri, *args, **kwargs)
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 209, in __init__
+    self._connect()
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 351, in _connect
+    raise error_callback.result
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_app.py", line 327, in run_forever
+    self.sock.connect(
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_core.py", line 244, in connect
+    self.sock, addrs = connect(url, self.sock_opt, proxy_info(**options),
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_http.py", line 130, in connect
+    sock = _open_socket(addrinfo_list, options.sockopt, options.timeout)
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_http.py", line 205, in _open_socket
+    raise err
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_http.py", line 185, in _open_socket
+    sock.connect(address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+INFO  2023-08-18 16:35:56,021 wx_minium.py connect_dev_tool 661 Trying to connect Dev tool ...
+ERROR 2023-08-18 16:36:00,233 connection.py _on_error       632 [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+INFO  2023-08-18 16:36:00,326 connection.py _ws_run_forever 367 websocket run forever shutdown
+ERROR 2023-08-18 16:36:00,419 wx_minium.py connect_dev_tool 681 [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+Traceback (most recent call last):
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\wx_minium.py", line 662, in connect_dev_tool
+    self.connection = Connection.create(
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 169, in create
+    instance = cls(uri, *args, **kwargs)
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 209, in __init__
+    self._connect()
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 351, in _connect
+    raise error_callback.result
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_app.py", line 327, in run_forever
+    self.sock.connect(
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_core.py", line 244, in connect
+    self.sock, addrs = connect(url, self.sock_opt, proxy_info(**options),
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_http.py", line 130, in connect
+    sock = _open_socket(addrinfo_list, options.sockopt, options.timeout)
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_http.py", line 205, in _open_socket
+    raise err
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_http.py", line 185, in _open_socket
+    sock.connect(address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+INFO  2023-08-18 16:36:00,420 wx_minium.py connect_dev_tool 661 Trying to connect Dev tool ...
+ERROR 2023-08-18 16:36:04,618 connection.py _on_error       632 [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+INFO  2023-08-18 16:36:04,651 connection.py _ws_run_forever 367 websocket run forever shutdown
+ERROR 2023-08-18 16:36:04,744 wx_minium.py connect_dev_tool 681 [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+Traceback (most recent call last):
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\wx_minium.py", line 662, in connect_dev_tool
+    self.connection = Connection.create(
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 169, in create
+    instance = cls(uri, *args, **kwargs)
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 209, in __init__
+    self._connect()
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 351, in _connect
+    raise error_callback.result
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_app.py", line 327, in run_forever
+    self.sock.connect(
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_core.py", line 244, in connect
+    self.sock, addrs = connect(url, self.sock_opt, proxy_info(**options),
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_http.py", line 130, in connect
+    sock = _open_socket(addrinfo_list, options.sockopt, options.timeout)
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_http.py", line 205, in _open_socket
+    raise err
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_http.py", line 185, in _open_socket
+    sock.connect(address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+ERROR 2023-08-18 16:36:04,746 wx_minium.py launch_dev_tool 624 three times try to connect Dev tool has all fail ..., restart now...
+INFO  2023-08-18 17:03:33,043 minitest.py init_miniprogram 144 start init miniprogram
+INFO  2023-08-18 17:03:33,047 basenative.py wrapper         24  call IdeNative.start_wechat
+INFO  2023-08-18 17:03:33,048 basenative.py wrapper         28  call IdeNative.start_wechat end
+INFO  2023-08-18 17:03:33,052 minium_object.py _do_shell       83  de shell: where cli.bat
+INFO  2023-08-18 17:03:33,227 minium_object.py _do_shell       101 err:
+信息: 用提供的模式无法找到文件。
+
+INFO  2023-08-18 17:03:33,228 minium_object.py _do_shell       102 out:
+
+WARNI 2023-08-18 17:03:33,228 wx_minium.py __setup_dev_tool 190 default dev_tool_path[C:/Program Files (x86)/Tencent/微信web开发者工具/cli.bat] not exists and command[cli.bat] not found
+INFO  2023-08-18 17:03:33,228 wx_minium.py launch_dev_tool 565 Starting dev tool and launch MiniProgram project ...
+WARNI 2023-08-18 17:03:33,229 wx_minium.py launch_dev_tool 610 Can not find `project_path` in config, that means you must open dev tool by automation way first
+WARNI 2023-08-18 17:03:33,229 wx_minium.py launch_dev_tool 614 If you are not running command like [cli auto --project /path/to/project --auto-port 9420], you may config `project_path` or run this command first
+INFO  2023-08-18 17:03:33,229 wx_minium.py connect_dev_tool 661 Trying to connect Dev tool ...
+ERROR 2023-08-18 17:03:37,483 connection.py _on_error       632 [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+INFO  2023-08-18 17:03:37,560 connection.py _ws_run_forever 367 websocket run forever shutdown
+ERROR 2023-08-18 17:03:37,653 wx_minium.py connect_dev_tool 681 [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+Traceback (most recent call last):
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\wx_minium.py", line 662, in connect_dev_tool
+    self.connection = Connection.create(
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 169, in create
+    instance = cls(uri, *args, **kwargs)
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 209, in __init__
+    self._connect()
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 351, in _connect
+    raise error_callback.result
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_app.py", line 327, in run_forever
+    self.sock.connect(
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_core.py", line 244, in connect
+    self.sock, addrs = connect(url, self.sock_opt, proxy_info(**options),
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_http.py", line 130, in connect
+    sock = _open_socket(addrinfo_list, options.sockopt, options.timeout)
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_http.py", line 205, in _open_socket
+    raise err
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_http.py", line 185, in _open_socket
+    sock.connect(address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+INFO  2023-08-18 17:03:37,662 wx_minium.py connect_dev_tool 661 Trying to connect Dev tool ...
+ERROR 2023-08-18 17:03:41,858 connection.py _on_error       632 [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+INFO  2023-08-18 17:03:41,920 connection.py _ws_run_forever 367 websocket run forever shutdown
+ERROR 2023-08-18 17:03:41,981 wx_minium.py connect_dev_tool 681 [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+Traceback (most recent call last):
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\wx_minium.py", line 662, in connect_dev_tool
+    self.connection = Connection.create(
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 169, in create
+    instance = cls(uri, *args, **kwargs)
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 209, in __init__
+    self._connect()
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 351, in _connect
+    raise error_callback.result
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_app.py", line 327, in run_forever
+    self.sock.connect(
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_core.py", line 244, in connect
+    self.sock, addrs = connect(url, self.sock_opt, proxy_info(**options),
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_http.py", line 130, in connect
+    sock = _open_socket(addrinfo_list, options.sockopt, options.timeout)
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_http.py", line 205, in _open_socket
+    raise err
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_http.py", line 185, in _open_socket
+    sock.connect(address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+INFO  2023-08-18 17:03:41,982 wx_minium.py connect_dev_tool 661 Trying to connect Dev tool ...
+ERROR 2023-08-18 17:03:46,202 connection.py _on_error       632 [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+INFO  2023-08-18 17:03:46,279 connection.py _ws_run_forever 367 websocket run forever shutdown
+ERROR 2023-08-18 17:03:46,357 wx_minium.py connect_dev_tool 681 [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+Traceback (most recent call last):
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\wx_minium.py", line 662, in connect_dev_tool
+    self.connection = Connection.create(
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 169, in create
+    instance = cls(uri, *args, **kwargs)
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 209, in __init__
+    self._connect()
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 351, in _connect
+    raise error_callback.result
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_app.py", line 327, in run_forever
+    self.sock.connect(
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_core.py", line 244, in connect
+    self.sock, addrs = connect(url, self.sock_opt, proxy_info(**options),
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_http.py", line 130, in connect
+    sock = _open_socket(addrinfo_list, options.sockopt, options.timeout)
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_http.py", line 205, in _open_socket
+    raise err
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_http.py", line 185, in _open_socket
+    sock.connect(address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+ERROR 2023-08-18 17:03:46,359 wx_minium.py launch_dev_tool 624 three times try to connect Dev tool has all fail ..., restart now...
+INFO  2023-08-18 18:51:39,456 minitest.py init_miniprogram 144 start init miniprogram
+INFO  2023-08-18 18:51:39,461 basenative.py wrapper         24  call IdeNative.start_wechat
+INFO  2023-08-18 18:51:39,462 basenative.py wrapper         28  call IdeNative.start_wechat end
+INFO  2023-08-18 18:51:39,464 minium_object.py _do_shell       83  de shell: where cli.bat
+INFO  2023-08-18 18:51:39,613 minium_object.py _do_shell       101 err:
+信息: 用提供的模式无法找到文件。
+
+INFO  2023-08-18 18:51:39,614 minium_object.py _do_shell       102 out:
+
+WARNI 2023-08-18 18:51:39,614 wx_minium.py __setup_dev_tool 190 default dev_tool_path[C:/Program Files (x86)/Tencent/微信web开发者工具/cli.bat] not exists and command[cli.bat] not found
+INFO  2023-08-18 18:51:39,614 wx_minium.py launch_dev_tool 565 Starting dev tool and launch MiniProgram project ...
+WARNI 2023-08-18 18:51:39,614 wx_minium.py launch_dev_tool 610 Can not find `project_path` in config, that means you must open dev tool by automation way first
+WARNI 2023-08-18 18:51:39,614 wx_minium.py launch_dev_tool 614 If you are not running command like [cli auto --project /path/to/project --auto-port 9420], you may config `project_path` or run this command first
+INFO  2023-08-18 18:51:39,615 wx_minium.py connect_dev_tool 661 Trying to connect Dev tool ...
+ERROR 2023-08-18 18:51:43,836 connection.py _on_error       632 [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+INFO  2023-08-18 18:51:43,915 connection.py _ws_run_forever 367 websocket run forever shutdown
+ERROR 2023-08-18 18:51:43,931 wx_minium.py connect_dev_tool 681 [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+Traceback (most recent call last):
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\wx_minium.py", line 662, in connect_dev_tool
+    self.connection = Connection.create(
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 169, in create
+    instance = cls(uri, *args, **kwargs)
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 209, in __init__
+    self._connect()
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 351, in _connect
+    raise error_callback.result
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_app.py", line 327, in run_forever
+    self.sock.connect(
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_core.py", line 244, in connect
+    self.sock, addrs = connect(url, self.sock_opt, proxy_info(**options),
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_http.py", line 130, in connect
+    sock = _open_socket(addrinfo_list, options.sockopt, options.timeout)
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_http.py", line 205, in _open_socket
+    raise err
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_http.py", line 185, in _open_socket
+    sock.connect(address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+INFO  2023-08-18 18:51:43,947 wx_minium.py connect_dev_tool 661 Trying to connect Dev tool ...
+ERROR 2023-08-18 18:51:48,179 connection.py _on_error       632 [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+INFO  2023-08-18 18:51:48,273 connection.py _ws_run_forever 367 websocket run forever shutdown
+ERROR 2023-08-18 18:51:48,412 wx_minium.py connect_dev_tool 681 [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+Traceback (most recent call last):
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\wx_minium.py", line 662, in connect_dev_tool
+    self.connection = Connection.create(
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 169, in create
+    instance = cls(uri, *args, **kwargs)
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 209, in __init__
+    self._connect()
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 351, in _connect
+    raise error_callback.result
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_app.py", line 327, in run_forever
+    self.sock.connect(
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_core.py", line 244, in connect
+    self.sock, addrs = connect(url, self.sock_opt, proxy_info(**options),
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_http.py", line 130, in connect
+    sock = _open_socket(addrinfo_list, options.sockopt, options.timeout)
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_http.py", line 205, in _open_socket
+    raise err
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_http.py", line 185, in _open_socket
+    sock.connect(address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+INFO  2023-08-18 18:51:48,412 wx_minium.py connect_dev_tool 661 Trying to connect Dev tool ...
+ERROR 2023-08-18 18:51:52,663 connection.py _on_error       632 [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+INFO  2023-08-18 18:51:52,755 connection.py _ws_run_forever 367 websocket run forever shutdown
+ERROR 2023-08-18 18:51:52,848 wx_minium.py connect_dev_tool 681 [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+Traceback (most recent call last):
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\wx_minium.py", line 662, in connect_dev_tool
+    self.connection = Connection.create(
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 169, in create
+    instance = cls(uri, *args, **kwargs)
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 209, in __init__
+    self._connect()
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 351, in _connect
+    raise error_callback.result
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_app.py", line 327, in run_forever
+    self.sock.connect(
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_core.py", line 244, in connect
+    self.sock, addrs = connect(url, self.sock_opt, proxy_info(**options),
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_http.py", line 130, in connect
+    sock = _open_socket(addrinfo_list, options.sockopt, options.timeout)
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_http.py", line 205, in _open_socket
+    raise err
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_http.py", line 185, in _open_socket
+    sock.connect(address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+ERROR 2023-08-18 18:51:52,850 wx_minium.py launch_dev_tool 624 three times try to connect Dev tool has all fail ..., restart now...
+INFO  2023-08-18 18:55:44,388 minitest.py init_miniprogram 144 start init miniprogram
+INFO  2023-08-18 18:55:44,390 basenative.py wrapper         24  call IdeNative.start_wechat
+INFO  2023-08-18 18:55:44,390 basenative.py wrapper         28  call IdeNative.start_wechat end
+INFO  2023-08-18 18:55:44,392 minium_object.py _do_shell       83  de shell: where cli.bat
+INFO  2023-08-18 18:55:44,573 minium_object.py _do_shell       101 err:
+信息: 用提供的模式无法找到文件。
+
+INFO  2023-08-18 18:55:44,574 minium_object.py _do_shell       102 out:
+
+WARNI 2023-08-18 18:55:44,575 wx_minium.py __setup_dev_tool 190 default dev_tool_path[C:/Program Files (x86)/Tencent/微信web开发者工具/cli.bat] not exists and command[cli.bat] not found
+INFO  2023-08-18 18:55:44,576 wx_minium.py launch_dev_tool 565 Starting dev tool and launch MiniProgram project ...
+WARNI 2023-08-18 18:55:44,577 wx_minium.py launch_dev_tool 610 Can not find `project_path` in config, that means you must open dev tool by automation way first
+WARNI 2023-08-18 18:55:44,577 wx_minium.py launch_dev_tool 614 If you are not running command like [cli auto --project /path/to/project --auto-port 9420], you may config `project_path` or run this command first
+INFO  2023-08-18 18:55:44,578 wx_minium.py connect_dev_tool 661 Trying to connect Dev tool ...
+ERROR 2023-08-18 18:55:48,801 connection.py _on_error       632 [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+INFO  2023-08-18 18:55:48,878 connection.py _ws_run_forever 367 websocket run forever shutdown
+ERROR 2023-08-18 18:55:48,954 wx_minium.py connect_dev_tool 681 [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+Traceback (most recent call last):
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\wx_minium.py", line 662, in connect_dev_tool
+    self.connection = Connection.create(
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 169, in create
+    instance = cls(uri, *args, **kwargs)
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 209, in __init__
+    self._connect()
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 351, in _connect
+    raise error_callback.result
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_app.py", line 327, in run_forever
+    self.sock.connect(
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_core.py", line 244, in connect
+    self.sock, addrs = connect(url, self.sock_opt, proxy_info(**options),
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_http.py", line 130, in connect
+    sock = _open_socket(addrinfo_list, options.sockopt, options.timeout)
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_http.py", line 205, in _open_socket
+    raise err
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_http.py", line 185, in _open_socket
+    sock.connect(address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+INFO  2023-08-18 18:55:48,958 wx_minium.py connect_dev_tool 661 Trying to connect Dev tool ...
+ERROR 2023-08-18 18:55:53,189 connection.py _on_error       632 [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+INFO  2023-08-18 18:55:53,204 connection.py _ws_run_forever 367 websocket run forever shutdown
+ERROR 2023-08-18 18:55:53,299 wx_minium.py connect_dev_tool 681 [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+Traceback (most recent call last):
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\wx_minium.py", line 662, in connect_dev_tool
+    self.connection = Connection.create(
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 169, in create
+    instance = cls(uri, *args, **kwargs)
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 209, in __init__
+    self._connect()
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 351, in _connect
+    raise error_callback.result
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_app.py", line 327, in run_forever
+    self.sock.connect(
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_core.py", line 244, in connect
+    self.sock, addrs = connect(url, self.sock_opt, proxy_info(**options),
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_http.py", line 130, in connect
+    sock = _open_socket(addrinfo_list, options.sockopt, options.timeout)
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_http.py", line 205, in _open_socket
+    raise err
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_http.py", line 185, in _open_socket
+    sock.connect(address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+INFO  2023-08-18 18:55:53,300 wx_minium.py connect_dev_tool 661 Trying to connect Dev tool ...
+ERROR 2023-08-18 18:55:57,485 connection.py _on_error       632 [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+INFO  2023-08-18 18:55:57,561 connection.py _ws_run_forever 367 websocket run forever shutdown
+ERROR 2023-08-18 18:55:57,640 wx_minium.py connect_dev_tool 681 [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+Traceback (most recent call last):
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\wx_minium.py", line 662, in connect_dev_tool
+    self.connection = Connection.create(
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 169, in create
+    instance = cls(uri, *args, **kwargs)
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 209, in __init__
+    self._connect()
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 351, in _connect
+    raise error_callback.result
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_app.py", line 327, in run_forever
+    self.sock.connect(
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_core.py", line 244, in connect
+    self.sock, addrs = connect(url, self.sock_opt, proxy_info(**options),
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_http.py", line 130, in connect
+    sock = _open_socket(addrinfo_list, options.sockopt, options.timeout)
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_http.py", line 205, in _open_socket
+    raise err
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_http.py", line 185, in _open_socket
+    sock.connect(address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+ERROR 2023-08-18 18:55:57,641 wx_minium.py launch_dev_tool 624 three times try to connect Dev tool has all fail ..., restart now...
+INFO  2023-08-18 18:56:47,101 minitest.py init_miniprogram 144 start init miniprogram
+INFO  2023-08-18 18:56:47,103 basenative.py wrapper         24  call IdeNative.start_wechat
+INFO  2023-08-18 18:56:47,105 basenative.py wrapper         28  call IdeNative.start_wechat end
+INFO  2023-08-18 18:56:47,108 minium_object.py _do_shell       83  de shell: where cli.bat
+INFO  2023-08-18 18:56:47,250 minium_object.py _do_shell       101 err:
+信息: 用提供的模式无法找到文件。
+
+INFO  2023-08-18 18:56:47,251 minium_object.py _do_shell       102 out:
+
+WARNI 2023-08-18 18:56:47,251 wx_minium.py __setup_dev_tool 190 default dev_tool_path[C:/Program Files (x86)/Tencent/微信web开发者工具/cli.bat] not exists and command[cli.bat] not found
+INFO  2023-08-18 18:56:47,251 wx_minium.py launch_dev_tool 565 Starting dev tool and launch MiniProgram project ...
+WARNI 2023-08-18 18:56:47,252 wx_minium.py launch_dev_tool 610 Can not find `project_path` in config, that means you must open dev tool by automation way first
+WARNI 2023-08-18 18:56:47,252 wx_minium.py launch_dev_tool 614 If you are not running command like [cli auto --project /path/to/project --auto-port 9420], you may config `project_path` or run this command first
+INFO  2023-08-18 18:56:47,252 wx_minium.py connect_dev_tool 661 Trying to connect Dev tool ...
+ERROR 2023-08-18 18:56:51,509 connection.py _on_error       632 [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+INFO  2023-08-18 18:56:51,571 connection.py _ws_run_forever 367 websocket run forever shutdown
+ERROR 2023-08-18 18:56:51,679 wx_minium.py connect_dev_tool 681 [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+Traceback (most recent call last):
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\wx_minium.py", line 662, in connect_dev_tool
+    self.connection = Connection.create(
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 169, in create
+    instance = cls(uri, *args, **kwargs)
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 209, in __init__
+    self._connect()
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 351, in _connect
+    raise error_callback.result
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_app.py", line 327, in run_forever
+    self.sock.connect(
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_core.py", line 244, in connect
+    self.sock, addrs = connect(url, self.sock_opt, proxy_info(**options),
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_http.py", line 130, in connect
+    sock = _open_socket(addrinfo_list, options.sockopt, options.timeout)
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_http.py", line 205, in _open_socket
+    raise err
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_http.py", line 185, in _open_socket
+    sock.connect(address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+INFO  2023-08-18 18:56:51,681 wx_minium.py connect_dev_tool 661 Trying to connect Dev tool ...
+ERROR 2023-08-18 18:56:55,906 connection.py _on_error       632 [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+INFO  2023-08-18 18:56:56,031 connection.py _ws_run_forever 367 websocket run forever shutdown
+ERROR 2023-08-18 18:56:56,125 wx_minium.py connect_dev_tool 681 [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+Traceback (most recent call last):
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\wx_minium.py", line 662, in connect_dev_tool
+    self.connection = Connection.create(
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 169, in create
+    instance = cls(uri, *args, **kwargs)
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 209, in __init__
+    self._connect()
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 351, in _connect
+    raise error_callback.result
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_app.py", line 327, in run_forever
+    self.sock.connect(
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_core.py", line 244, in connect
+    self.sock, addrs = connect(url, self.sock_opt, proxy_info(**options),
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_http.py", line 130, in connect
+    sock = _open_socket(addrinfo_list, options.sockopt, options.timeout)
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_http.py", line 205, in _open_socket
+    raise err
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_http.py", line 185, in _open_socket
+    sock.connect(address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+INFO  2023-08-18 18:56:56,126 wx_minium.py connect_dev_tool 661 Trying to connect Dev tool ...
+ERROR 2023-08-18 18:57:00,364 connection.py _on_error       632 [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+INFO  2023-08-18 18:57:00,441 connection.py _ws_run_forever 367 websocket run forever shutdown
+ERROR 2023-08-18 18:57:00,518 wx_minium.py connect_dev_tool 681 [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+Traceback (most recent call last):
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\wx_minium.py", line 662, in connect_dev_tool
+    self.connection = Connection.create(
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 169, in create
+    instance = cls(uri, *args, **kwargs)
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 209, in __init__
+    self._connect()
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 351, in _connect
+    raise error_callback.result
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_app.py", line 327, in run_forever
+    self.sock.connect(
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_core.py", line 244, in connect
+    self.sock, addrs = connect(url, self.sock_opt, proxy_info(**options),
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_http.py", line 130, in connect
+    sock = _open_socket(addrinfo_list, options.sockopt, options.timeout)
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_http.py", line 205, in _open_socket
+    raise err
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_http.py", line 185, in _open_socket
+    sock.connect(address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+ERROR 2023-08-18 18:57:00,519 wx_minium.py launch_dev_tool 624 three times try to connect Dev tool has all fail ..., restart now...
+INFO  2023-08-18 19:02:03,736 minitest.py init_miniprogram 144 start init miniprogram
+INFO  2023-08-18 19:02:03,738 basenative.py wrapper         24  call IdeNative.start_wechat
+INFO  2023-08-18 19:02:03,739 basenative.py wrapper         28  call IdeNative.start_wechat end
+INFO  2023-08-18 19:02:03,739 minium_object.py _do_shell       83  de shell: where cli.bat
+INFO  2023-08-18 19:02:03,877 minium_object.py _do_shell       101 err:
+信息: 用提供的模式无法找到文件。
+
+INFO  2023-08-18 19:02:03,878 minium_object.py _do_shell       102 out:
+
+WARNI 2023-08-18 19:02:03,878 wx_minium.py __setup_dev_tool 190 default dev_tool_path[C:/Program Files (x86)/Tencent/微信web开发者工具/cli.bat] not exists and command[cli.bat] not found
+INFO  2023-08-18 19:02:03,878 wx_minium.py launch_dev_tool 565 Starting dev tool and launch MiniProgram project ...
+WARNI 2023-08-18 19:02:03,878 wx_minium.py launch_dev_tool 610 Can not find `project_path` in config, that means you must open dev tool by automation way first
+WARNI 2023-08-18 19:02:03,878 wx_minium.py launch_dev_tool 614 If you are not running command like [cli auto --project /path/to/project --auto-port 9420], you may config `project_path` or run this command first
+INFO  2023-08-18 19:02:03,878 wx_minium.py connect_dev_tool 661 Trying to connect Dev tool ...
+ERROR 2023-08-18 19:02:08,116 connection.py _on_error       632 [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+INFO  2023-08-18 19:02:08,209 connection.py _ws_run_forever 367 websocket run forever shutdown
+ERROR 2023-08-18 19:02:08,285 wx_minium.py connect_dev_tool 681 [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+Traceback (most recent call last):
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\wx_minium.py", line 662, in connect_dev_tool
+    self.connection = Connection.create(
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 169, in create
+    instance = cls(uri, *args, **kwargs)
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 209, in __init__
+    self._connect()
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 351, in _connect
+    raise error_callback.result
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_app.py", line 327, in run_forever
+    self.sock.connect(
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_core.py", line 244, in connect
+    self.sock, addrs = connect(url, self.sock_opt, proxy_info(**options),
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_http.py", line 130, in connect
+    sock = _open_socket(addrinfo_list, options.sockopt, options.timeout)
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_http.py", line 205, in _open_socket
+    raise err
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_http.py", line 185, in _open_socket
+    sock.connect(address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+INFO  2023-08-18 19:02:08,292 wx_minium.py connect_dev_tool 661 Trying to connect Dev tool ...
+ERROR 2023-08-18 19:02:12,527 connection.py _on_error       632 [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+INFO  2023-08-18 19:02:12,588 connection.py _ws_run_forever 367 websocket run forever shutdown
+ERROR 2023-08-18 19:02:12,650 wx_minium.py connect_dev_tool 681 [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+Traceback (most recent call last):
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\wx_minium.py", line 662, in connect_dev_tool
+    self.connection = Connection.create(
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 169, in create
+    instance = cls(uri, *args, **kwargs)
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 209, in __init__
+    self._connect()
+  File "D:\software\python-3.10.10\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 351, in _connect
+    raise error_callback.result
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_app.py", line 327, in run_forever
+    self.sock.connect(
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_core.py", line 244, in connect
+    self.sock, addrs = connect(url, self.sock_opt, proxy_info(**options),
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_http.py", line 130, in connect
+    sock = _open_socket(addrinfo_list, options.sockopt, options.timeout)
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_http.py", line 205, in _open_socket
+    raise err
+  File "D:\software\python-3.10.10\lib\site-packages\websocket\_http.py", line 185, in _open_socket
+    sock.connect(address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+INFO  2023-08-18 19:02:12,651 wx_minium.py connect_dev_tool 661 Trying to connect Dev tool ...
+ERROR 2023-08-18 19:02:16,834 connection.py _on_error       632 [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+INFO  2023-08-18 19:02:16,860 connection.py _ws_run_forever 367 websocket run forever shutdown
